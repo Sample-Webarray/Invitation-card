@@ -1,0 +1,3011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0F2347" />
+<title>Freshers &amp; Farewell Party · RSMT BCA</title>
+<meta name="description" content="RSMT BCA presents Freshers & Farewell Party — Dandiya Dhamaka. 17 October 2026, 10:00 AM at Mannat Lawn, Chandmari, Varanasi." />
+
+<script>
+  (function(){
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('has-intro');
+    }
+  })();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600&display=swap" />
+
+<style>
+/* ==========================================================================
+   DESIGN TOKENS
+   ========================================================================== */
+:root{
+  --bg:#FBF7EE;
+  --bg-tint:#F4ECDD;
+  --bg-warm:#EFE6D3;
+  --ink:#1D1A17;
+  --ink-2:#4A423B;
+  --ink-3:#827568;
+  --ink-4:#A89B8C;
+
+  --wine:#1E3A6B;
+  --wine-deep:#0F2347;
+  --blue-2:#2A4D85;
+  --blue-3:#16305A;
+
+  --pink:#C92A5C;
+  --pink-deep:#A81F4A;
+
+  --gold:#A87F3D;
+  --gold-2:#C9A76A;
+  --gold-3:#7F5E2B;
+
+  --card-cream:#F0E4C8;
+  --card-blue:#1E3A6B;
+  --card-title-wine:#5C1A28;
+  --card-pink:#C92A5C;
+  --card-gold:#C9A961;
+  --card-gold-bright:#D9BD7E;
+  --card-gold-dark:#A8843F;
+  --card-brown:#2E1A0F;
+
+  --line:rgba(29,26,23,.08);
+  --line-2:rgba(29,26,23,.14);
+  --line-gold:rgba(168,127,61,.28);
+  --line-gold-2:rgba(168,127,61,.45);
+
+  --r-1:8px; --r-2:12px; --r-3:16px; --r-4:20px; --r-pill:999px;
+
+  --sh-1:
+    0 1px 2px rgba(29,26,23,.04),
+    0 1px 3px rgba(29,26,23,.04);
+  --sh-2:
+    0 2px 4px rgba(29,26,23,.04),
+    0 4px 12px rgba(29,26,23,.06);
+  --sh-modal:
+    0 4px 6px rgba(0,0,0,.04),
+    0 24px 60px rgba(0,0,0,.22);
+  --sh-card:
+    0 8px 16px rgba(0,0,0,.06),
+    0 30px 60px -20px rgba(15,35,71,.35),
+    0 60px 120px -40px rgba(0,0,0,.4);
+
+  --f-display:"Playfair Display","Georgia","Times New Roman",serif;
+  --f-script:"Great Vibes","Brush Script MT",cursive;
+  --f-serif:"Cormorant Garamond","Georgia",serif;
+  --f-ui:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;
+
+  --fs-display:clamp(2.25rem, 7.5vw, 5rem);
+  --fs-script:clamp(3.5rem, 14vw, 8.5rem);
+  --fs-h1:clamp(1.75rem, 4vw, 3rem);
+  --fs-h3:clamp(1.0625rem, 1.5vw, 1.1875rem);
+  --fs-body:clamp(.9375rem, 1.15vw, 1.0625rem);
+  --fs-small:.8125rem;
+  --fs-caption:.75rem;
+  --fs-micro:.6875rem;
+  --fs-nano:.625rem;
+
+  --pad-x:clamp(20px, 5vw, 64px);
+  --section-y:clamp(56px, 8vw, 104px);
+  --max-w:1120px;
+
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-spring:cubic-bezier(.34,1.4,.64,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{
+  -webkit-text-size-adjust:100%;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  scroll-behavior:smooth;
+  scroll-padding-top:64px;
+}
+body{
+  font-family:var(--f-ui);
+  font-size:16px;
+  line-height:1.5;
+  color:var(--ink);
+  background:var(--bg);
+  overflow-x:hidden;
+  text-rendering:optimizeLegibility;
+  font-feature-settings:"cv11","ss01","kern";
+}
+img,svg{display:block;max-width:100%}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+::selection{background:var(--wine);color:var(--bg)}
+[hidden]{display:none !important}
+:focus{outline:none}
+:focus-visible{outline:2px solid var(--gold-2);outline-offset:3px;border-radius:var(--r-1)}
+
+/* ==========================================================================
+   SHARED TYPOGRAPHY
+   ========================================================================== */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);
+  font-weight:600;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--gold-3);
+}
+.eyebrow__dot{
+  display:inline-block;
+  width:3px;height:3px;border-radius:50%;
+  background:currentColor;opacity:.7;
+  flex-shrink:0;
+}
+
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+.container{max-width:var(--max-w);margin:0 auto;width:100%}
+
+.section{
+  padding:var(--section-y) var(--pad-x);
+  position:relative;
+}
+.section--base{background:var(--bg)}
+.section--tint{background:var(--bg-tint)}
+.section--dark{background:var(--wine);color:var(--bg)}
+.section--deep{background:var(--wine-deep);color:var(--bg)}
+
+.section__head{
+  text-align:center;
+  max-width:520px;
+  margin:0 auto 48px;
+}
+.section__head .eyebrow{margin-bottom:16px}
+.section__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:var(--fs-h1);
+  line-height:1.06;
+  letter-spacing:-.022em;
+  color:inherit;
+  margin-bottom:16px;
+}
+.section__title em{
+  font-family:var(--f-script);
+  font-style:normal;
+  font-weight:400;
+  font-size:1.12em;
+  color:var(--wine);
+  padding:0 .1em;
+}
+.section--dark .section__title em,
+.section--deep .section__title em{color:var(--gold-2)}
+.section__lead{
+  font-family:var(--f-serif);
+  font-style:italic;
+  font-weight:400;
+  font-size:var(--fs-body);
+  line-height:1.55;
+  color:var(--ink-2);
+  max-width:44ch;
+  margin:0 auto;
+}
+.section--dark .section__lead,
+.section--deep .section__lead{color:rgba(251,247,238,.72)}
+
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 22px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-micro);
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  border-radius:var(--r-pill);
+  border:1px solid transparent;
+  transition:background-color .25s var(--ease),color .25s var(--ease),
+             border-color .25s var(--ease),transform .2s var(--ease);
+  white-space:nowrap;
+  line-height:1;
+}
+.btn svg{width:11px;height:11px;transition:transform .3s var(--ease);flex-shrink:0}
+.btn:hover svg{transform:translateX(2px)}
+.btn:active{transform:scale(.97)}
+
+.btn--primary{background:var(--pink);color:var(--bg)}
+.btn--primary:hover,.btn--primary:focus-visible{background:var(--gold);color:var(--ink)}
+
+.btn--outline{border-color:var(--line-2);color:var(--ink)}
+.btn--outline:hover,.btn--outline:focus-visible{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+.btn--youtube{background:var(--pink);color:var(--bg);padding:12px 20px}
+.btn--youtube:hover,.btn--youtube:focus-visible{background:var(--gold);color:var(--ink)}
+.btn--youtube svg{width:14px;height:14px}
+
+/* ==========================================================================
+   INTRO GATE
+   ========================================================================== */
+.intro{
+  display:none;position:fixed;inset:0;z-index:9000;
+  overflow:hidden;perspective:2200px;perspective-origin:50% 50%;
+  pointer-events:none;
+}
+html.has-intro .intro{display:block;pointer-events:auto}
+html.has-intro{overflow:hidden}
+
+.intro__door{
+  position:absolute;top:0;bottom:0;width:50%;z-index:2;
+  will-change:transform,opacity;transform-style:preserve-3d;
+  backface-visibility:hidden;overflow:hidden;
+}
+.intro__door--left{
+  left:0;transform-origin:0% 50%;
+  background:linear-gradient(165deg,#2E4E82 0%,#1E3A6B 30%,#16305A 65%,#0A1E3D 100%);
+  box-shadow:inset 0 0 0 1px rgba(201,167,106,.42),inset -2px 0 12px rgba(0,0,0,.5);
+}
+.intro__door--right{
+  right:0;transform-origin:100% 50%;
+  background:linear-gradient(200deg,#2E4E82 0%,#1E3A6B 30%,#16305A 65%,#0A1E3D 100%);
+  box-shadow:inset 0 0 0 1px rgba(201,167,106,.42),inset 2px 0 12px rgba(0,0,0,.5);
+}
+.intro__door-frame{
+  position:absolute;
+  top:clamp(20px,3.5vw,44px);bottom:clamp(20px,3.5vw,44px);
+  border:1px solid rgba(201,167,106,.34);border-radius:4px;pointer-events:none;
+}
+.intro__door--left .intro__door-frame{left:clamp(16px,3vw,40px);right:clamp(28px,5vw,56px)}
+.intro__door--right .intro__door-frame{left:clamp(28px,5vw,56px);right:clamp(16px,3vw,40px)}
+.intro__door-frame::after{
+  content:"";position:absolute;
+  inset:clamp(8px,1.5vw,16px);
+  border:1px solid rgba(201,167,106,.12);border-radius:2px;
+}
+.intro__door::before{
+  content:"";position:absolute;
+  top:clamp(60px,10vw,140px);bottom:clamp(60px,10vw,140px);width:1px;
+  background:linear-gradient(180deg,transparent 0%,rgba(201,167,106,.10) 15%,rgba(201,167,106,.10) 85%,transparent 100%);
+}
+.intro__door--left::before{right:clamp(48px,8vw,88px)}
+.intro__door--right::before{left:clamp(48px,8vw,88px)}
+.intro__door::after{
+  content:"";position:absolute;
+  left:0;right:0;bottom:0;height:32%;
+  background:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.42) 100%);
+}
+.intro__door-handle{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:clamp(4px,.7vw,5px);height:clamp(56px,12vh,90px);
+  border-radius:3px;
+  background:linear-gradient(180deg,#EBD298 0%,#C9A76A 35%,#A87F3D 70%,#7F5E2B 100%);
+  box-shadow:0 0 12px rgba(201,167,106,.5),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.intro__door--left .intro__door-handle{right:clamp(14px,2.5vw,22px)}
+.intro__door--right .intro__door-handle{left:clamp(14px,2.5vw,22px)}
+.intro__seam{
+  position:absolute;top:0;bottom:0;left:50%;width:2px;
+  transform:translateX(-50%);
+  background:linear-gradient(180deg,transparent 0%,rgba(201,167,106,.55) 10%,rgba(201,167,106,.55) 90%,transparent 100%);
+  z-index:3;pointer-events:none;
+}
+.intro__light{
+  position:absolute;top:50%;left:50%;
+  width:0;height:80vh;transform:translate(-50%,-50%);
+  background:radial-gradient(ellipse at center,rgba(255,225,175,.7) 0%,rgba(201,167,106,.2) 35%,transparent 70%);
+  z-index:1;pointer-events:none;opacity:0;filter:blur(8px);
+  will-change:width,opacity;
+}
+.intro__skip{
+  position:absolute;
+  bottom:max(20px,env(safe-area-inset-bottom));
+  right:max(20px,env(safe-area-inset-right));
+  padding:10px 16px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:rgba(251,247,238,.65);
+  border:1px solid rgba(251,247,238,.2);
+  border-radius:var(--r-pill);
+  transition:color .25s, border-color .25s;
+  z-index:10;backdrop-filter:blur(8px);pointer-events:auto;
+}
+.intro__skip:hover,.intro__skip:focus-visible{color:var(--bg);border-color:rgba(251,247,238,.5)}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:800;
+  padding:14px var(--pad-x);
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  border-bottom:1px solid transparent;
+  transition:padding .3s var(--ease),background-color .3s var(--ease),
+             border-color .3s var(--ease),backdrop-filter .3s var(--ease);
+}
+.site-header.is-scrolled{
+  padding:10px var(--pad-x);
+  background:rgba(251,247,238,.82);
+  backdrop-filter:blur(20px) saturate(1.4);
+  -webkit-backdrop-filter:blur(20px) saturate(1.4);
+  border-bottom-color:var(--line);
+}
+.brand{display:flex;align-items:center;gap:10px;color:var(--wine);min-width:0}
+.brand__mark{width:30px;height:30px;flex-shrink:0;color:var(--gold)}
+.brand__mark svg{width:100%;height:100%}
+.brand__text{display:flex;flex-direction:column;gap:2px;line-height:1;min-width:0}
+.brand__name{
+  font-family:var(--f-display);
+  font-size:clamp(.6875rem, 2vw, .8125rem);
+  font-weight:500;color:var(--wine);line-height:1.2;
+}
+.brand__sub{
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-3);
+}
+.header-cta{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:9px 16px;
+  font-size:var(--fs-micro);font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;
+  color:var(--wine);
+  border:1px solid var(--line-gold);
+  border-radius:var(--r-pill);
+  transition:background-color .25s var(--ease),color .25s var(--ease),
+             border-color .25s var(--ease);
+  flex-shrink:0;
+}
+.header-cta:hover,.header-cta:focus-visible{
+  background:var(--wine);color:var(--bg);border-color:var(--wine);
+}
+.header-cta svg{width:11px;height:11px;transition:transform .25s var(--ease)}
+.header-cta:hover svg{transform:translateX(2px)}
+@media (max-width:480px){
+  .brand__sub{display:none}
+  .header-cta span{display:none}
+  .header-cta{padding:9px 11px}
+}
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero{
+  position:relative;
+  min-height:100vh;min-height:100svh;
+  padding:clamp(88px,12vw,112px) var(--pad-x) clamp(48px,7vw,72px);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  overflow:hidden;isolation:isolate;text-align:center;
+  background:radial-gradient(ellipse 100% 70% at 50% 42%, #FDFAF3 0%, #FBF7EE 45%, #F4ECDD 100%);
+}
+.hero::before{
+  content:"";position:absolute;
+  top:-15%;left:50%;width:110%;height:70%;
+  transform:translateX(-50%);
+  background:radial-gradient(ellipse at center top,rgba(201,167,106,.08) 0%,transparent 55%);
+  pointer-events:none;z-index:0;
+}
+.hero__corner{
+  position:absolute;
+  width:clamp(24px,4vw,40px);height:clamp(24px,4vw,40px);
+  z-index:2;pointer-events:none;
+  color:var(--gold);opacity:.5;
+}
+.hero__corner svg{width:100%;height:100%}
+.hero__corner--tl{top:clamp(20px,4vw,40px);left:clamp(20px,4vw,40px)}
+.hero__corner--tr{top:clamp(20px,4vw,40px);right:clamp(20px,4vw,40px);transform:scaleX(-1)}
+.hero__corner--bl{bottom:clamp(20px,4vw,40px);left:clamp(20px,4vw,40px);transform:scaleY(-1)}
+.hero__corner--br{bottom:clamp(20px,4vw,40px);right:clamp(20px,4vw,40px);transform:scale(-1)}
+.hero__circle{
+  position:absolute;top:50%;left:50%;
+  width:min(78vw,520px);height:min(78vw,520px);
+  transform:translate(-50%,-58%);
+  color:var(--gold);opacity:.16;pointer-events:none;z-index:-1;
+}
+.hero__sparkle{position:absolute;color:var(--gold);opacity:.5;pointer-events:none;z-index:2}
+.hero__sparkle--1{top:24%;left:12%;width:12px;height:12px}
+.hero__sparkle--2{bottom:30%;right:12%;width:9px;height:9px;opacity:.38}
+.hero__sparkle--3{top:18%;right:19%;width:7px;height:7px;opacity:.32}
+
+.hero__dandiya{
+  position:absolute;bottom:14%;left:7%;
+  width:58px;height:58px;
+  color:var(--gold);opacity:.42;pointer-events:none;z-index:0;
+  transform:rotate(-12deg);
+}
+.hero__dandiya svg{width:100%;height:100%}
+
+.hero__dancer{
+  position:absolute;bottom:12%;right:6%;
+  width:52px;height:78px;
+  color:var(--gold);opacity:.42;pointer-events:none;z-index:0;
+  transform:rotate(6deg);
+}
+.hero__dancer svg{width:100%;height:100%}
+
+@media (max-width:640px){
+  .hero__dandiya{width:40px;height:40px;bottom:10%;left:5%}
+  .hero__dancer{width:38px;height:56px;bottom:9%;right:5%}
+}
+
+.hero__inner{
+  position:relative;z-index:1;
+  max-width:840px;margin:0 auto;width:100%;
+  display:flex;flex-direction:column;align-items:center;
+}
+.hero__invite{
+  font-family:var(--f-ui);
+  font-size:var(--fs-micro);font-weight:600;
+  letter-spacing:.34em;text-transform:uppercase;
+  color:var(--gold-3);
+  margin-bottom:clamp(20px,3vw,32px);line-height:1.6;
+}
+@media (max-width:480px){
+  .hero__invite{font-size:var(--fs-nano);letter-spacing:.28em}
+}
+.hero__title{
+  display:flex;flex-direction:column;align-items:center;
+  width:100%;margin-bottom:clamp(24px,3.5vw,36px);
+}
+.hero__title-serif{
+  display:block;
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:var(--fs-display);
+  line-height:1;letter-spacing:-.028em;
+  color:var(--ink);
+  max-width:15ch;text-align:center;
+  padding-bottom:.02em;will-change:transform;
+}
+.hero__title-serif em{
+  font-family:var(--f-script);font-style:normal;font-weight:400;
+  color:var(--wine);font-size:1.05em;padding:0 .08em;
+  vertical-align:-.06em;
+}
+.hero__title-script{
+  position:relative;display:inline-block;
+  margin-top:-.2em;padding:.2em .35em .45em;
+  will-change:transform,opacity;
+}
+.hero__title-script span{
+  font-family:var(--f-script);font-weight:400;
+  font-size:var(--fs-script);line-height:1;
+  color:var(--wine);display:inline-block;padding-bottom:.05em;
+}
+.hero__swash{
+  position:absolute;top:-.08em;left:50%;
+  transform:translateX(-50%);
+  width:clamp(100px,24vw,190px);height:auto;
+  color:var(--gold);opacity:.85;pointer-events:none;
+}
+.hero__swash path{stroke:currentColor;stroke-width:1.1;fill:none;stroke-linecap:round}
+.hero__subtitle{
+  font-family:var(--f-serif);font-style:italic;font-weight:400;
+  font-size:clamp(1rem,1.9vw,1.1875rem);line-height:1.5;
+  color:var(--ink-2);max-width:44ch;
+  margin:0 auto clamp(28px,4vw,40px);
+}
+
+.hero__details{
+  display:grid;
+  grid-template-columns:1fr 1px 1fr 1px 1fr;
+  align-items:center;gap:clamp(16px,3vw,32px);
+  max-width:720px;width:100%;
+  margin-bottom:clamp(28px,4vw,40px);
+}
+@media (max-width:640px){.hero__details{grid-template-columns:1fr;gap:20px}}
+.hero__detail{
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  text-align:center;
+}
+.hero__detail-icon{width:20px;height:20px;color:var(--gold-3);margin-bottom:2px;stroke-width:1.4}
+.hero__detail-label{
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-3);
+}
+.hero__detail-value{
+  font-family:var(--f-display);
+  font-size:clamp(.9375rem,1.25vw,1.0625rem);
+  font-weight:500;color:var(--ink);line-height:1.35;
+}
+.hero__detail-value em{font-family:var(--f-serif);font-style:italic;color:var(--wine);font-weight:500}
+.hero__divider{
+  width:1px;height:44px;
+  background:linear-gradient(180deg,transparent,var(--line-gold),transparent);
+}
+@media (max-width:640px){.hero__divider{display:none}}
+
+.hero__pill{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:11px 22px;
+  background:var(--pink);color:var(--bg);
+  border-radius:var(--r-pill);
+  font-family:var(--f-ui);
+  font-size:var(--fs-micro);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;
+  margin-bottom:14px;
+  transition:background-color .3s var(--ease),transform .2s var(--ease);
+  box-shadow:0 8px 24px -10px rgba(201,42,92,.55);line-height:1;
+}
+.hero__pill:hover,.hero__pill:focus-visible{background:var(--gold);color:var(--ink)}
+.hero__pill:active{transform:scale(.98)}
+.hero__pill-dot{
+  display:inline-block;width:3px;height:3px;border-radius:50%;
+  background:currentColor;opacity:.5;
+}
+.hero__motto{
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-3);
+  margin-bottom:clamp(24px,3.5vw,36px);
+  text-align:center;
+}
+.hero__actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+
+/* ==========================================================================
+   COUNTDOWN
+   ========================================================================== */
+.countdown-section{position:relative;overflow:hidden}
+.countdown-section::before{
+  content:"";position:absolute;top:50%;left:50%;
+  width:min(120vw,900px);height:min(120vw,900px);
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle at center,rgba(201,167,106,.08) 0%,transparent 60%);
+  pointer-events:none;z-index:0;
+}
+.countdown__watermark{
+  position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  width:min(80vw, 520px);height:min(80vw, 520px);
+  color:var(--gold-2);opacity:.055;
+  pointer-events:none;z-index:0;
+}
+.countdown-section__inner{
+  position:relative;z-index:1;
+  max-width:760px;margin:0 auto;text-align:center;
+}
+.countdown-section__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:var(--fs-h1);
+  line-height:1.06;letter-spacing:-.022em;
+  color:var(--bg);
+  margin:16px 0 12px;
+}
+.countdown-section__title em{font-family:var(--f-script);font-style:normal;color:var(--gold-2);font-size:1.12em}
+.countdown-section__lead{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.5;
+  color:rgba(251,247,238,.72);
+  max-width:42ch;margin:0 auto 40px;
+}
+.countdown{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(8px,1.4vw,14px);
+  max-width:600px;margin:0 auto;
+}
+.countdown__unit{
+  padding:clamp(14px,2.4vw,22px) clamp(6px,1vw,12px);
+  background:rgba(251,247,238,.04);
+  border:1px solid rgba(201,167,106,.22);
+  border-radius:var(--r-3);
+  transition:border-color .3s var(--ease),background-color .3s var(--ease);
+}
+.countdown__unit:hover{
+  border-color:rgba(201,167,106,.5);
+  background:rgba(251,247,238,.06);
+}
+.countdown__value{
+  display:block;
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(1.5rem,5vw,2.875rem);
+  line-height:1;letter-spacing:-.025em;
+  font-variant-numeric:tabular-nums;color:var(--gold-2);
+}
+.countdown__label{
+  display:block;margin-top:6px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;
+  color:rgba(251,247,238,.5);
+}
+@media (max-width:380px){
+  .countdown__label{font-size:9px;letter-spacing:.18em}
+}
+.countdown__started{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:clamp(1.0625rem,2vw,1.375rem);
+  color:var(--gold-2);padding:16px 0;
+}
+
+/* ==========================================================================
+   EVENT SCHEDULE — timeline (aligned + Inter font)
+   ========================================================================== */
+.schedule{
+  max-width:760px;
+  margin:0 auto;
+  position:relative;
+}
+.schedule::before{
+  content:"";
+  position:absolute;
+  left:174px;
+  top:28px;
+  bottom:28px;
+  width:1px;
+  background:linear-gradient(180deg,
+    transparent 0%,
+    var(--line-gold) 12%,
+    var(--line-gold) 88%,
+    transparent 100%);
+  opacity:.75;
+}
+.schedule__item{
+  display:grid;
+  grid-template-columns:140px 20px 1fr;
+  gap:0 24px;
+  align-items:flex-start;
+  padding:28px 0;
+  position:relative;
+}
+.schedule__time{
+  text-align:right;
+  font-family:var(--f-ui);
+  font-weight:600;
+  font-size:clamp(.9375rem, 1.35vw, 1.0625rem);
+  color:var(--wine);
+  letter-spacing:-.005em;
+  line-height:1.3;
+  padding-top:1px;
+}
+.schedule__time-sub{
+  display:block;
+  font-family:var(--f-ui);
+  font-weight:500;
+  font-size:var(--fs-micro);
+  color:var(--ink-3);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-top:5px;
+  line-height:1.3;
+}
+.schedule__dot{
+  width:13px;
+  height:13px;
+  border-radius:50%;
+  background:var(--pink);
+  border:2px solid var(--bg-tint);
+  box-shadow:0 0 0 4px rgba(201,42,92,.14);
+  justify-self:center;
+  margin-top:4px;
+  position:relative;
+  z-index:1;
+  flex-shrink:0;
+}
+.schedule__content{padding-left:4px}
+.schedule__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:clamp(1.0625rem, 1.7vw, 1.25rem);
+  color:var(--ink);
+  margin-bottom:6px;
+  line-height:1.28;
+  letter-spacing:-.012em;
+}
+.schedule__title em{
+  font-family:var(--f-serif);
+  font-style:italic;
+  font-weight:500;
+  color:var(--pink);
+  font-size:1.02em;
+  padding-left:.1em;
+}
+.schedule__desc{
+  font-size:var(--fs-small);
+  line-height:1.6;
+  color:var(--ink-2);
+  max-width:46ch;
+}
+@media (max-width:640px){
+  .schedule::before{left:11px;top:20px;bottom:20px}
+  .schedule__item{
+    grid-template-columns:22px 1fr;
+    gap:0 16px;
+    padding:24px 0;
+    align-items:flex-start;
+  }
+  .schedule__time{
+    grid-column:2;
+    grid-row:1;
+    text-align:left;
+    font-size:1rem;
+    margin-bottom:6px;
+  }
+  .schedule__dot{
+    grid-column:1;
+    grid-row:1 / span 2;
+    margin-top:6px;
+  }
+  .schedule__content{
+    grid-column:2;
+    grid-row:2;
+    padding-left:0;
+  }
+}
+
+/* ==========================================================================
+   HIGHLIGHTS
+   ========================================================================== */
+.highlights{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:12px;max-width:900px;margin:0 auto;
+}
+.highlight{
+  position:relative;
+  display:flex;flex-direction:column;align-items:center;
+  text-align:center;padding:26px 20px;
+  background:#FFFDF8;
+  border:1px solid var(--line);
+  border-radius:var(--r-3);
+  box-shadow:var(--sh-1);
+  cursor:pointer;font:inherit;color:inherit;
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),
+             border-color .35s var(--ease);
+  overflow:hidden;
+}
+.highlight::after{
+  content:"";position:absolute;
+  bottom:-12px;right:-12px;width:48px;height:48px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='%23A87F3D' stroke-width='1.6' stroke-linecap='round'%3E%3Cline x1='10' y1='30' x2='30' y2='10'/%3E%3Cline x1='10' y1='10' x2='30' y2='30'/%3E%3Ccircle cx='10' cy='30' r='2' fill='%23A87F3D'/%3E%3Ccircle cx='30' cy='10' r='2' fill='%23A87F3D'/%3E%3Ccircle cx='10' cy='10' r='2' fill='%23A87F3D'/%3E%3Ccircle cx='30' cy='30' r='2' fill='%23A87F3D'/%3E%3C/svg%3E");
+  background-size:contain;background-repeat:no-repeat;opacity:.10;
+  pointer-events:none;
+  transition:opacity .35s var(--ease), transform .35s var(--ease);
+}
+.highlight:hover::after{opacity:.22;transform:translate(-4px,-4px)}
+.highlight:hover,.highlight:focus-visible{
+  transform:translateY(-3px);
+  border-color:var(--line-gold-2);
+  box-shadow:var(--sh-2);
+}
+.highlight:active{transform:translateY(-1px)}
+@media (hover:none){.highlight:hover{transform:none;box-shadow:var(--sh-1)}}
+.highlight__icon{
+  width:34px;height:34px;color:var(--wine);
+  margin-bottom:14px;
+  transition:transform .4s var(--ease);
+}
+.highlight:hover .highlight__icon,
+.highlight:focus-visible .highlight__icon{transform:rotate(-4deg) scale(1.06)}
+.highlight__title{
+  font-family:var(--f-display);
+  font-size:var(--fs-h3);font-weight:500;
+  letter-spacing:-.01em;color:var(--ink);
+  margin-bottom:6px;line-height:1.25;
+  position:relative;z-index:1;
+}
+.highlight__title em{font-family:var(--f-script);font-style:normal;font-weight:400;color:var(--wine);font-size:1.2em}
+.highlight__text{
+  font-size:var(--fs-small);line-height:1.5;
+  color:var(--ink-3);max-width:24ch;
+  position:relative;z-index:1;
+}
+.highlight__hint{
+  display:inline-flex;align-items:center;gap:5px;
+  margin-top:16px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-3);
+  transition:color .25s var(--ease);
+  position:relative;z-index:1;
+}
+.highlight:hover .highlight__hint{color:var(--wine)}
+.highlight__hint svg{width:9px;height:9px;transition:transform .25s var(--ease)}
+.highlight:hover .highlight__hint svg{transform:translateX(2px)}
+
+/* ==========================================================================
+   THE HONOURS — cinematic chapter-style awards
+   ========================================================================== */
+.honours{
+  position:relative;
+  overflow:hidden;
+  background:var(--wine-deep);
+  color:var(--bg);
+}
+.honours::before{
+  content:"";
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 0%, rgba(201,167,106,.10) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, rgba(201,42,92,.06) 0%, transparent 60%);
+  pointer-events:none;
+  z-index:0;
+}
+.honours__grain{
+  position:absolute;inset:0;
+  pointer-events:none;z-index:0;
+  opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.honours .container{position:relative;z-index:1}
+
+.honours__head{
+  text-align:center;
+  max-width:600px;
+  margin:0 auto clamp(56px, 9vw, 96px);
+}
+.honours__head .eyebrow{margin-bottom:18px}
+.honours__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:var(--fs-h1);
+  line-height:1.05;
+  letter-spacing:-.022em;
+  color:var(--bg);
+  margin-bottom:20px;
+}
+.honours__title em{
+  font-family:var(--f-script);
+  font-style:normal;
+  font-weight:400;
+  color:var(--gold-2);
+  font-size:1.14em;
+  padding:0 .1em;
+}
+.honours__lead{
+  font-family:var(--f-serif);
+  font-style:italic;
+  font-weight:400;
+  font-size:var(--fs-body);
+  line-height:1.6;
+  color:rgba(251,247,238,.72);
+  max-width:44ch;
+  margin:0 auto;
+}
+.honours__lead em{
+  font-style:italic;
+  color:var(--gold-2);
+}
+
+/* Pre-title card */
+.honours__prelude{
+  max-width:600px;
+  margin:0 auto clamp(48px, 8vw, 72px);
+  text-align:center;
+  padding:24px 20px;
+  border-top:1px solid rgba(201,167,106,.25);
+  border-bottom:1px solid rgba(201,167,106,.25);
+  font-family:var(--f-serif);
+  font-style:italic;
+  font-size:clamp(.9375rem, 1.2vw, 1.0625rem);
+  line-height:1.6;
+  color:rgba(251,247,238,.65);
+}
+.honours__prelude em{
+  font-style:normal;
+  font-family:var(--f-ui);
+  font-weight:600;
+  font-size:var(--fs-micro);
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--gold-2);
+  display:block;
+  margin-bottom:10px;
+}
+
+/* Chapters */
+.honours__chapters{
+  display:grid;
+  gap:0;
+  max-width:840px;
+  margin:0 auto;
+  counter-reset: chapter;
+}
+
+.chapter{
+  position:relative;
+  padding:clamp(48px, 7vw, 80px) 0;
+  border-top:1px solid rgba(201,167,106,.14);
+  counter-increment: chapter;
+  opacity:1;
+}
+.chapter:first-child{border-top:1px solid rgba(201,167,106,.14)}
+
+/* Large ghost number */
+.chapter__ghost{
+  position:absolute;
+  top:clamp(24px, 3vw, 40px);
+  left:0;
+  font-family:var(--f-display);
+  font-weight:300;
+  font-size:clamp(4rem, 12vw, 8.5rem);
+  line-height:.82;
+  letter-spacing:-.05em;
+  color:rgba(201,167,106,.16);
+  pointer-events:none;
+  user-select:none;
+  z-index:0;
+  transition:color .8s var(--ease);
+}
+.chapter.is-visible .chapter__ghost{
+  color:rgba(201,167,106,.26);
+}
+
+/* Chapter body */
+.chapter__body{
+  position:relative;
+  z-index:1;
+  padding-left:clamp(72px, 15vw, 200px);
+}
+
+/* Small kicker above title */
+.chapter__kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-family:var(--f-ui);
+  font-weight:600;
+  font-size:var(--fs-nano);
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--gold-2);
+  margin-bottom:14px;
+}
+.chapter__kicker-rule{
+  display:inline-block;
+  width:24px;
+  height:1px;
+  background:currentColor;
+  opacity:.6;
+}
+
+/* Big title */
+.chapter__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:clamp(1.5rem, 3.4vw, 2.5rem);
+  line-height:1.1;
+  letter-spacing:-.024em;
+  color:var(--bg);
+  margin-bottom:12px;
+}
+.chapter__title em{
+  font-family:var(--f-script);
+  font-style:normal;
+  font-weight:400;
+  color:var(--gold-2);
+  font-size:1.08em;
+  padding-left:.08em;
+}
+
+/* Italic tagline */
+.chapter__tagline{
+  font-family:var(--f-serif);
+  font-style:italic;
+  font-weight:400;
+  font-size:clamp(.9375rem, 1.15vw, 1.0625rem);
+  line-height:1.6;
+  color:rgba(251,247,238,.7);
+  max-width:46ch;
+}
+.chapter__tagline em{
+  font-style:normal;
+  font-weight:500;
+  color:var(--gold-2);
+}
+
+/* Trailing flourish icon for the last chapter */
+.chapter__flourish{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  margin-top:20px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);
+  font-weight:600;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--gold-2);
+  opacity:.85;
+}
+.chapter__flourish svg{
+  width:14px;height:14px;
+  color:var(--gold-2);
+}
+
+/* Responsive */
+@media (max-width:640px){
+  .chapter__body{padding-left:clamp(56px, 18vw, 100px)}
+  .chapter__ghost{font-size:clamp(3.5rem, 16vw, 5.5rem);top:18px}
+}
+
+/* ==========================================================================
+   DRESS CODE
+   ========================================================================== */
+.dresscode{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(32px,5vw,64px);
+  max-width:880px;margin:0 auto;position:relative;
+}
+.dresscode::before{
+  content:"";position:absolute;
+  top:8px;bottom:8px;left:50%;width:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(180deg,transparent,var(--line-gold),transparent);
+  opacity:.7;
+}
+@media (max-width:680px){
+  .dresscode{grid-template-columns:1fr;gap:40px}
+  .dresscode::before{display:none}
+}
+.dresscode__motif{
+  display:block;width:72px;height:40px;
+  color:var(--gold);opacity:.85;margin:0 auto 40px;
+}
+.dresscode__col{display:flex;flex-direction:column;align-items:center;text-align:center}
+.dresscode__eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.3em;text-transform:uppercase;
+  color:var(--wine);
+  margin-bottom:20px;padding-bottom:14px;
+  border-bottom:1px solid var(--line-gold);
+  line-height:1;
+}
+.dresscode__emoji{font-size:1.1em;line-height:1;filter:saturate(.85)}
+.dresscode__list{display:grid;gap:14px;margin-bottom:20px;width:100%}
+.dresscode__list li{
+  position:relative;
+  font-family:var(--f-display);
+  font-size:clamp(1.0625rem,1.6vw,1.1875rem);
+  font-weight:500;letter-spacing:-.01em;
+  color:var(--ink);line-height:1.35;
+}
+.dresscode__list li::before{
+  content:"";display:inline-block;
+  width:6px;height:6px;margin-right:12px;margin-bottom:.15em;
+  border-radius:50%;background:var(--gold-2);
+  vertical-align:middle;transform:translateY(-1px);
+}
+.dresscode__list-note{
+  display:block;margin-left:18px;margin-top:5px;
+  font-family:var(--f-serif);font-style:italic;font-weight:400;
+  font-size:var(--fs-caption);color:var(--ink-3);
+  line-height:1.45;text-transform:none;
+}
+.dresscode__note{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-small);line-height:1.55;
+  color:var(--ink-2);max-width:32ch;margin:0 auto;
+}
+.dresscode__note--tight{margin-top:12px;color:var(--ink-3);font-size:var(--fs-caption)}
+.dresscode__warn{
+  margin-top:16px;padding:12px 16px;
+  max-width:34ch;
+  font-family:var(--f-ui);
+  font-size:var(--fs-micro);font-weight:500;
+  line-height:1.55;color:var(--wine);
+  background:rgba(30,58,107,.05);
+  border:1px solid rgba(30,58,107,.12);
+  border-radius:var(--r-2);text-align:center;
+}
+.dresscode__warn em{font-style:normal;font-weight:600;color:var(--wine);white-space:nowrap}
+.dresscode__notice{
+  max-width:560px;
+  margin:clamp(40px,6vw,64px) auto 0;
+  padding:24px 28px;text-align:center;
+  background:#FFFDF8;border:1px solid var(--line);
+  border-radius:var(--r-3);box-shadow:var(--sh-1);
+}
+.dresscode__notice-label{
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-3);margin-bottom:10px;
+}
+.dresscode__notice-text{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.55;
+  color:var(--ink-2);max-width:46ch;margin:0 auto;
+}
+.dresscode__tagline{
+  display:flex;flex-wrap:wrap;
+  align-items:center;justify-content:center;gap:14px;
+  margin-top:32px;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-3);text-align:center;
+}
+.dresscode__tagline-dot{color:var(--gold);opacity:.7;font-size:1.2em;line-height:.8}
+
+/* ==========================================================================
+   VENUE
+   ========================================================================== */
+.venue{
+  display:grid;grid-template-columns:1fr 1.2fr;
+  gap:clamp(24px,5vw,56px);
+  align-items:center;
+  max-width:960px;margin:0 auto;
+}
+@media (max-width:820px){.venue{grid-template-columns:1fr;gap:28px}}
+.venue__info{text-align:center}
+.venue__label{
+  display:block;
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.3em;text-transform:uppercase;
+  color:var(--gold-3);margin-bottom:10px;
+}
+.venue__name{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:clamp(1.5rem,3.2vw,2rem);
+  line-height:1.12;color:var(--ink);margin-bottom:12px;
+}
+.venue__name em{font-family:var(--f-script);font-style:normal;color:var(--wine);font-size:1.15em}
+.venue__address{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.55;
+  color:var(--ink-2);
+}
+.venue__map{
+  position:relative;aspect-ratio:4 / 3;
+  border:1px solid var(--line-gold);
+  border-radius:var(--r-4);overflow:hidden;
+  box-shadow:var(--sh-2);background:#FFFDF8;
+}
+.venue__map iframe{
+  position:absolute;inset:0;width:100%;height:100%;border:0;display:block;
+}
+@media (max-width:820px){.venue__map{aspect-ratio:5 / 4}}
+.venue__footer{
+  max-width:520px;
+  margin:clamp(24px,4vw,36px) auto 0;
+  text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:14px;
+}
+.venue__footer .btn{padding:14px 26px}
+.venue__note{font-size:var(--fs-small);line-height:1.55;color:var(--ink-3);max-width:40ch}
+.venue__note em{font-family:var(--f-serif);font-style:italic;color:var(--wine)}
+
+/* ==========================================================================
+   INVITATION
+   ========================================================================== */
+.card-section{
+  position:relative;overflow:hidden;
+  padding:var(--section-y) var(--pad-x);
+  background:var(--wine-deep);
+}
+.card-section__foliage{
+  position:absolute;z-index:0;
+  color:var(--gold-2);opacity:.55;pointer-events:none;
+}
+.card-section__foliage--tl{ top:0; left:0; width:clamp(140px, 30vw, 280px); height:auto; }
+.card-section__foliage--tr{ top:0; right:0; width:clamp(140px, 30vw, 280px); height:auto; transform:scaleX(-1); }
+.card-section__foliage--bl{ bottom:0; left:0; width:clamp(120px, 24vw, 240px); height:auto; transform:scaleY(-1); }
+.card-section__foliage--br{ bottom:0; right:0; width:clamp(120px, 24vw, 240px); height:auto; transform:scale(-1); }
+
+.card-section .container{ position:relative; z-index:2; }
+
+.card-section__head{
+  text-align:center;max-width:520px;
+  margin:0 auto 48px;
+}
+.card-section__title{
+  font-family:var(--f-display);
+  font-weight:500;
+  font-size:var(--fs-h1);
+  line-height:1.06;color:var(--bg);margin:16px 0 12px;
+}
+.card-section__title em{font-family:var(--f-script);font-style:normal;color:var(--gold-2);font-size:1.12em}
+.card-section__sub{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.5;
+  color:rgba(251,247,238,.72);
+  max-width:38ch;margin:0 auto;
+}
+
+.invite-card{
+  position:relative;display:block;
+  width:100%;max-width:520px;margin:0 auto;
+  aspect-ratio: 5 / 8;
+  background:var(--card-cream);
+  border-radius:6px;overflow:hidden;
+  box-shadow:var(--sh-card);
+  color:var(--card-brown);
+  isolation:isolate;
+  border:1px solid var(--card-gold-dark);
+}
+.invite-card__bg{
+  position:absolute;inset:0;
+  background:radial-gradient(ellipse 90% 60% at 50% 45%, #F5EAD0 0%, #EEDFBB 60%, #E5D2A5 100%);
+  z-index:0;pointer-events:none;
+}
+.invite-card__mandala{
+  position:absolute;top:50%;left:50%;
+  width:95%;height:auto;
+  transform:translate(-50%,-50%);
+  color:var(--card-gold-dark);opacity:.06;
+  z-index:1;pointer-events:none;
+}
+.invite-card__arch{position:absolute;z-index:2;pointer-events:none}
+.invite-card__arch--tl{top:0;left:0;width:60%;height:auto}
+.invite-card__arch--tr{top:0;right:0;width:60%;height:auto}
+.invite-card__arch--bl{bottom:0;left:0;width:70%;height:auto}
+.invite-card__arch--br{bottom:0;right:0;width:70%;height:auto}
+
+.invite-card__corner{
+  position:absolute;z-index:6;
+  color:var(--card-cream);
+  pointer-events:none;line-height:1.15;
+}
+.invite-card__corner--tl{
+  top:clamp(14px, 3vw, 22px);
+  left:clamp(16px, 3.5vw, 26px);
+  text-align:left;
+}
+.invite-card__corner--tr{
+  top:clamp(14px, 3vw, 22px);
+  right:clamp(16px, 3.5vw, 26px);
+  text-align:right;
+}
+.invite-card__corner-title{
+  font-family:var(--f-display);font-weight:400;
+  font-size:clamp(.5625rem, 1.5vw, .8125rem);
+  letter-spacing:.02em;color:var(--card-cream);
+  margin-bottom:2px;line-height:1.2;
+}
+.invite-card__corner-sub{
+  font-family:var(--f-display);font-weight:400;
+  font-size:clamp(.5625rem, 1.5vw, .8125rem);
+  letter-spacing:.02em;color:var(--card-cream);line-height:1.2;
+}
+.invite-card__badge{
+  display:inline-block;
+  padding:clamp(6px, 1.5vw, 10px) clamp(10px, 2.5vw, 16px);
+  border:1px solid var(--card-gold-bright);
+  border-radius:2px;text-align:center;
+  font-family:var(--f-serif);font-style:italic;
+  color:var(--card-gold-bright);
+  box-shadow:0 0 0 3px rgba(201,169,97,.12);
+}
+.invite-card__badge-line{
+  display:block;
+  font-size:clamp(.5625rem, 1.4vw, .75rem);
+  letter-spacing:.04em;line-height:1.1;
+}
+
+.invite-card__body{
+  position:relative;z-index:5;
+  display:flex;flex-direction:column;align-items:center;
+  padding: clamp(74px, 15vw, 104px) clamp(16px, 5vw, 32px) clamp(150px, 26vw, 190px);
+  text-align:center;height:100%;justify-content:center;
+}
+.invite-card__invite{
+  font-family:var(--f-ui);
+  font-size:clamp(.5rem, 1.3vw, .625rem);
+  font-weight:600;letter-spacing:.34em;
+  text-transform:uppercase;color:var(--card-title-wine);
+  margin-bottom:clamp(6px, 1.5vw, 10px);line-height:1.5;
+}
+.invite-card__divider{
+  display:flex;align-items:center;gap:8px;
+  margin-bottom:clamp(8px, 2vw, 14px);
+  color:var(--card-gold-dark);
+}
+.invite-card__divider-line{
+  width:clamp(40px, 8vw, 60px);height:1px;
+  background:linear-gradient(90deg, transparent, var(--card-gold-dark), transparent);
+  opacity:.7;
+}
+.invite-card__divider-mark{
+  font-size:clamp(.5rem, 1.2vw, .625rem);
+  color:var(--card-gold-dark);line-height:1;
+}
+.invite-card__flourish{
+  width:clamp(60px, 15vw, 90px);height:auto;
+  color:var(--card-gold);
+  margin:0 auto clamp(2px, 1vw, 6px);opacity:.9;
+}
+.invite-card__title{
+  display:flex;flex-direction:column;align-items:center;
+  width:100%;margin-bottom:clamp(8px, 2vw, 14px);
+  gap:clamp(2px, 1vw, 6px);line-height:1;
+}
+.invite-card__title-main{
+  display:block;
+  font-family:var(--f-display);font-weight:700;
+  font-size:clamp(1.375rem, 6vw, 2.25rem);
+  line-height:1;letter-spacing:-.015em;
+  color:var(--card-title-wine);text-align:center;
+}
+.invite-card__title-main em{
+  font-family:var(--f-display);font-style:italic;font-weight:600;
+  color:var(--card-title-wine);font-size:1em;padding:0 .05em;
+}
+.invite-card__title-script{
+  display:block;
+  font-family:var(--f-script);font-weight:400;
+  font-size:clamp(2.25rem, 9vw, 3.5rem);
+  line-height:1;color:var(--card-gold);
+  padding:.1em .15em .3em;margin-top:-.1em;
+}
+.invite-card__sub{
+  font-family:var(--f-serif);font-style:italic;font-weight:400;
+  font-size:clamp(.75rem, 1.9vw, .9375rem);
+  line-height:1.45;color:var(--card-title-wine);
+  max-width:32ch;margin:0 auto clamp(14px, 3vw, 22px);
+}
+.invite-card__details{
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  gap:clamp(4px, 1vw, 10px);
+  width:100%;margin-bottom:clamp(10px, 2.5vw, 16px);
+  position:relative;
+}
+.invite-card__details::before,
+.invite-card__details::after{
+  content:"";position:absolute;
+  top:20%;bottom:20%;width:1px;
+  background:linear-gradient(180deg, transparent, var(--card-gold), transparent);
+  opacity:.5;
+}
+.invite-card__details::before{ left:calc(33.333% - 0.5px); }
+.invite-card__details::after{  left:calc(66.666% - 0.5px); }
+.invite-card__detail{
+  display:flex;flex-direction:column;align-items:center;
+  gap:clamp(3px, .8vw, 6px);text-align:center;padding:0 2px;
+}
+.invite-card__detail-icon{
+  width:clamp(20px, 4vw, 28px);height:clamp(20px, 4vw, 28px);
+  color:var(--card-blue);margin-bottom:clamp(2px, .6vw, 4px);flex-shrink:0;
+}
+.invite-card__detail-label{
+  font-family:var(--f-ui);
+  font-size:clamp(.5rem, 1.2vw, .625rem);
+  font-weight:600;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--card-blue);
+}
+.invite-card__detail-value{
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(.625rem, 1.5vw, .8125rem);
+  line-height:1.3;color:var(--card-brown);
+}
+.invite-card__venue{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:clamp(4px, 1.2vw, 7px) clamp(12px, 3vw, 20px);
+  background:var(--card-pink);color:#FFFFFF;
+  border-radius:2px;
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(.625rem, 1.7vw, .8125rem);
+  letter-spacing:.14em;text-transform:uppercase;
+  margin-top:clamp(6px, 1.5vw, 12px);
+  margin-bottom:clamp(14px, 3vw, 20px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.18), 0 2px 6px rgba(201,42,92,.35);
+}
+.invite-card__venue::before,
+.invite-card__venue::after{
+  content:"✦";font-size:.7em;color:rgba(255,255,255,.9);opacity:.95;
+}
+.invite-card__welcome{
+  position:relative;
+  display:inline-flex;align-items:center;
+  gap:clamp(6px, 1.5vw, 10px);
+  padding:clamp(6px, 1.8vw, 11px) clamp(16px, 4vw, 28px);
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(.6875rem, 1.9vw, .875rem);
+  letter-spacing:.3em;text-transform:uppercase;
+  color:#FFFFFF;margin-bottom:clamp(8px, 2vw, 14px);
+  z-index:1;
+}
+.invite-card__welcome::before{
+  content:"";position:absolute;inset:0;
+  background:var(--card-pink);
+  clip-path:polygon(2% 15%, 98% 8%, 99% 50%, 96% 92%, 50% 98%, 4% 94%, 0% 60%, 1% 30%);
+  z-index:-1;box-shadow:0 3px 8px rgba(201,42,92,.35);
+}
+.invite-card__welcome span{position:relative}
+.invite-card__motto{
+  font-family:var(--f-ui);
+  font-size:clamp(.5rem, 1.3vw, .625rem);
+  font-weight:600;letter-spacing:.34em;
+  text-transform:uppercase;color:var(--card-title-wine);
+  margin-top:clamp(2px, 1vw, 6px);line-height:1.5;
+}
+
+/* Illustrations — enlarged */
+.invite-card__dandiya-left{
+  position:absolute;
+  top:clamp(46px, 10vw, 72px);left:clamp(6px, 2vw, 12px);
+  width:clamp(78px, 19vw, 120px);height:auto;
+  z-index:4;transform:rotate(-6deg);
+  filter:drop-shadow(0 2px 5px rgba(0,0,0,.4));
+}
+.invite-card__dandiya-right{
+  position:absolute;
+  top:clamp(62px, 13vw, 94px);right:clamp(6px, 2vw, 12px);
+  width:clamp(64px, 15vw, 94px);height:auto;
+  z-index:4;transform:rotate(8deg);
+  filter:drop-shadow(0 2px 5px rgba(0,0,0,.4));
+}
+.invite-card__lanterns{
+  position:absolute;
+  top:clamp(30px, 6.5vw, 48px);right:clamp(18px, 4.5vw, 34px);
+  width:clamp(40px, 9.5vw, 66px);height:auto;
+  z-index:4;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35));
+}
+.invite-card__matka{
+  position:absolute;
+  bottom:clamp(28px, 7vw, 48px);left:clamp(8px, 2.5vw, 18px);
+  width:clamp(96px, 22vw, 148px);height:auto;
+  z-index:4;filter:drop-shadow(0 3px 6px rgba(0,0,0,.45));
+}
+.invite-card__dancers{
+  position:absolute;
+  bottom:clamp(20px, 5vw, 34px);right:clamp(6px, 2vw, 14px);
+  width:clamp(135px, 34vw, 220px);height:auto;
+  z-index:4;filter:drop-shadow(0 3px 7px rgba(0,0,0,.45));
+}
+.invite-card__sparkle{
+  position:absolute;color:var(--card-gold);
+  z-index:2;pointer-events:none;opacity:.7;
+}
+.invite-card__sparkle--1{ top:18%; left:24%; width:12px; height:12px; }
+.invite-card__sparkle--2{ top:22%; right:28%; width:9px; height:9px; opacity:.55; }
+.invite-card__sparkle--3{ top:38%; left:12%; width:8px; height:8px; opacity:.5; }
+.invite-card__sparkle--4{ top:35%; right:14%; width:10px; height:10px; opacity:.6; }
+
+@media (max-width:440px){
+  .invite-card__title-main{ font-size:clamp(1.25rem, 6.5vw, 1.75rem); }
+  .invite-card__title-script{ font-size:clamp(2rem, 10vw, 2.75rem); }
+}
+
+/* ==========================================================================
+   MODAL
+   ========================================================================== */
+.modal{
+  position:fixed;inset:0;z-index:9500;
+  display:grid;place-items:center;
+  padding:clamp(12px,3vw,24px);
+  opacity:0;visibility:hidden;
+  transition:opacity .28s var(--ease),visibility .28s;
+  pointer-events:none;
+}
+.modal.is-open{opacity:1;visibility:visible;pointer-events:auto}
+.modal__backdrop{
+  position:absolute;inset:0;
+  background:rgba(29,26,23,.55);
+  backdrop-filter:blur(16px) saturate(1.2);
+  -webkit-backdrop-filter:blur(16px) saturate(1.2);
+}
+.modal__panel{
+  position:relative;
+  width:100%;max-width:560px;
+  max-height:min(86vh,760px);
+  overflow-y:auto;
+  background:var(--bg);
+  border:1px solid var(--line-gold);
+  border-radius:var(--r-4);
+  padding:36px 28px 28px;
+  transform:scale(.96) translateY(12px);
+  opacity:0;
+  transition:transform .36s var(--ease-spring),opacity .3s var(--ease);
+  box-shadow:var(--sh-modal);
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+}
+@media (max-width:440px){.modal__panel{padding:28px 20px 22px}}
+.modal.is-open .modal__panel{transform:scale(1) translateY(0);opacity:1}
+.modal__panel::-webkit-scrollbar{width:6px}
+.modal__panel::-webkit-scrollbar-thumb{background:var(--line-gold-2);border-radius:3px}
+.modal__close{
+  position:sticky;top:0;float:right;
+  width:34px;height:34px;
+  display:grid;place-items:center;
+  border:1px solid var(--line-2);border-radius:50%;
+  color:var(--wine);background:var(--bg);
+  margin-left:12px;
+  transition:background-color .25s var(--ease),color .25s var(--ease),
+             border-color .25s var(--ease),transform .3s var(--ease);
+  z-index:2;
+}
+.modal__close:hover,.modal__close:focus-visible{
+  background:var(--wine);color:var(--bg);
+  border-color:var(--wine);transform:rotate(90deg);
+}
+.modal__close svg{width:12px;height:12px}
+.modal__eyebrow{display:inline-flex;align-items:center;gap:8px;margin-bottom:12px}
+.modal__eyebrow-rule{width:20px;height:1px;background:var(--gold);opacity:.6}
+.modal__title{
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(1.5rem,3.6vw,2rem);
+  line-height:1.1;color:var(--ink);margin-bottom:10px;clear:right;
+}
+.modal__title em{font-family:var(--f-script);font-style:normal;color:var(--wine);font-size:1.12em}
+.modal__subtitle{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.5;
+  color:var(--ink-2);max-width:52ch;
+  margin-bottom:24px;padding-bottom:20px;
+  border-bottom:1px solid var(--line);
+}
+.modal__section{margin-bottom:22px}
+.modal__section:last-of-type{margin-bottom:0}
+.modal__section-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.modal__section-icon{width:18px;height:18px;color:var(--wine);flex-shrink:0}
+.modal__section-label{
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-3);
+}
+.modal__body-text{font-size:var(--fs-small);line-height:1.65;color:var(--ink-2);max-width:56ch}
+.modal__list{display:grid;gap:10px;margin-top:6px}
+.modal__list li{
+  position:relative;padding-left:18px;
+  font-size:var(--fs-small);line-height:1.6;
+  color:var(--ink-2);
+}
+.modal__list li::before{
+  content:"";position:absolute;
+  left:0;top:.75em;width:9px;height:1px;background:var(--gold);
+}
+.modal__list li strong{color:var(--ink);font-weight:600}
+.modal__action{margin-top:14px}
+.modal__foot{
+  margin-top:26px;padding-top:20px;
+  border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:8px;justify-content:center;
+}
+
+/* ==========================================================================
+   CLOSING
+   ========================================================================== */
+.closing{text-align:center;position:relative;overflow:hidden}
+.closing .container{display:flex;justify-content:center}
+.closing__inner{
+  position:relative;z-index:1;
+  max-width:600px;margin:0 auto;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+}
+.closing__dandiya{width:60px;height:60px;color:var(--gold);opacity:.7;margin:0 auto 20px}
+.closing__dandiya svg{width:100%;height:100%}
+.closing__inner .eyebrow{display:inline-flex;justify-content:center;margin:0 auto 12px}
+.closing__title{
+  font-family:var(--f-display);font-weight:500;
+  font-size:clamp(1.625rem,4vw,2.75rem);
+  line-height:1.1;color:var(--ink);margin-bottom:14px;text-align:center;
+}
+.closing__title em{font-family:var(--f-script);font-style:normal;color:var(--wine);font-size:1.15em}
+.closing__lead{
+  font-family:var(--f-serif);font-style:italic;
+  font-size:var(--fs-body);line-height:1.5;
+  color:var(--ink-2);max-width:42ch;
+  margin:0 auto 24px;text-align:center;
+}
+.closing__actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.site-footer{
+  background:var(--wine-deep);color:var(--bg);
+  padding:40px var(--pad-x) max(20px,env(safe-area-inset-bottom));
+  text-align:center;position:relative;overflow:hidden;
+}
+.site-footer__inner{max-width:560px;margin:0 auto;position:relative;z-index:1}
+.site-footer__college{
+  font-family:var(--f-display);
+  font-size:var(--fs-body);font-weight:500;
+  margin-bottom:6px;line-height:1.35;
+}
+.site-footer__event{
+  font-family:var(--f-ui);
+  font-size:var(--fs-nano);font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-2);margin-bottom:16px;line-height:1.6;
+}
+.site-footer__divider{width:24px;height:1px;background:var(--gold-2);opacity:.4;margin:16px auto}
+.site-footer__note{
+  font-size:var(--fs-small);line-height:1.6;
+  color:rgba(251,247,238,.55);margin-bottom:4px;
+}
+.site-footer__deco{
+  position:absolute;bottom:-30px;left:50%;
+  transform:translateX(-50%);
+  width:200px;height:120px;
+  color:var(--gold-2);opacity:.06;pointer-events:none;z-index:0;
+}
+
+/* ==========================================================================
+   UTILITIES
+   ========================================================================== */
+.visually-hidden{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+.skip-link{
+  position:absolute;top:-100px;left:16px;
+  padding:12px 20px;
+  background:var(--wine);color:var(--bg);
+  z-index:10000;border-radius:var(--r-2);
+  font-size:var(--fs-small);
+  transition:top .25s var(--ease);
+}
+.skip-link:focus{top:16px}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;
+    scroll-behavior:auto !important;
+  }
+  .intro{display:none !important}
+}
+</style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <span class="intro__light" id="introLight" aria-hidden="true"></span>
+  <div class="intro__door intro__door--left" id="doorLeft">
+    <div class="intro__door-frame"></div>
+    <span class="intro__door-handle" aria-hidden="true"></span>
+  </div>
+  <div class="intro__door intro__door--right" id="doorRight">
+    <div class="intro__door-frame"></div>
+    <span class="intro__door-handle" aria-hidden="true"></span>
+  </div>
+  <span class="intro__seam" id="introSeam" aria-hidden="true"></span>
+  <button class="intro__skip" id="introSkip" type="button">Skip</button>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#home" aria-label="RSMT BCA — Home">
+    <span class="brand__mark" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="50" cy="50" r="46"/>
+        <circle cx="50" cy="50" r="36"/>
+        <circle cx="50" cy="50" r="18"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z" transform="rotate(60 50 50)"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z" transform="rotate(120 50 50)"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z" transform="rotate(180 50 50)"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z" transform="rotate(240 50 50)"/>
+        <path d="M50 14 C 54 28, 54 38, 50 48 C 46 38, 46 28, 50 14 Z" transform="rotate(300 50 50)"/>
+      </svg>
+    </span>
+    <span class="brand__text">
+      <span class="brand__name">Rajarshi School of Management &amp; Technology</span>
+      <span class="brand__sub">BCA · Invitation</span>
+    </span>
+  </a>
+  <a class="header-cta" href="#card">
+    <span>Invitation Card</span>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home" aria-labelledby="heroTitle">
+    <span class="hero__corner hero__corner--tl" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M2 12 L2 2 L12 2"/></svg>
+    </span>
+    <span class="hero__corner hero__corner--tr" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M2 12 L2 2 L12 2"/></svg>
+    </span>
+    <span class="hero__corner hero__corner--bl" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M2 12 L2 2 L12 2"/></svg>
+    </span>
+    <span class="hero__corner hero__corner--br" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M2 12 L2 2 L12 2"/></svg>
+    </span>
+
+    <svg class="hero__circle" viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="0.7" aria-hidden="true">
+      <circle cx="200" cy="200" r="190"/>
+    </svg>
+
+    <span class="hero__dandiya" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="82" x2="82" y2="18"/>
+        <line x1="18" y1="18" x2="82" y2="82"/>
+        <circle cx="18" cy="82" r="3.6" fill="currentColor" stroke="none"/>
+        <circle cx="82" cy="18" r="3.6" fill="currentColor" stroke="none"/>
+        <circle cx="18" cy="18" r="3.6" fill="currentColor" stroke="none"/>
+        <circle cx="82" cy="82" r="3.6" fill="currentColor" stroke="none"/>
+      </svg>
+    </span>
+
+    <span class="hero__dancer" aria-hidden="true">
+      <svg viewBox="0 0 80 130" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="40" cy="18" r="7"/>
+        <path d="M40 25 L 40 32"/>
+        <path d="M34 32 L 46 32 L 58 118 L 22 118 Z"/>
+        <path d="M36 42 L 32 118"/>
+        <path d="M44 42 L 48 118"/>
+        <path d="M34 40 L 16 22"/>
+        <path d="M46 40 L 64 22"/>
+      </svg>
+    </span>
+
+    <span class="hero__sparkle hero__sparkle--1" aria-hidden="true">
+      <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+    </span>
+    <span class="hero__sparkle hero__sparkle--2" aria-hidden="true">
+      <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+    </span>
+    <span class="hero__sparkle hero__sparkle--3" aria-hidden="true">
+      <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+    </span>
+
+    <div class="hero__inner">
+      <p class="hero__invite" id="heroTop">You are cordially invited to</p>
+
+      <h1 class="hero__title" id="heroTitle">
+        <span class="hero__title-serif" id="heroTitleSerif">Freshers <em>&amp;</em> Farewell</span>
+        <span class="hero__title-script" id="heroTitleScript">
+          <svg class="hero__swash" viewBox="0 0 220 20" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M8 14 C 40 4, 80 4, 110 10 C 140 16, 180 16, 212 8"/>
+          </svg>
+          <span>Party</span>
+        </span>
+      </h1>
+
+      <p class="hero__subtitle" id="heroSubtitle">
+        New beginnings, cherished memories, and a day to celebrate together.
+      </p>
+
+      <div class="hero__details" id="heroFacts">
+        <div class="hero__detail">
+          <svg class="hero__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="16" rx="2"/>
+            <path d="M3 10h18M8 3v4M16 3v4"/>
+          </svg>
+          <span class="hero__detail-label">Date</span>
+          <span class="hero__detail-value">Saturday, <em>17 October 2026</em></span>
+        </div>
+        <span class="hero__divider" aria-hidden="true"></span>
+        <div class="hero__detail">
+          <svg class="hero__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+          <span class="hero__detail-label">Time</span>
+          <span class="hero__detail-value"><em>10:00 AM onwards</em></span>
+        </div>
+        <span class="hero__divider" aria-hidden="true"></span>
+        <div class="hero__detail">
+          <svg class="hero__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+          <span class="hero__detail-label">Venue</span>
+          <span class="hero__detail-value">Mannat Lawn, Chandmari</span>
+        </div>
+      </div>
+
+      <a class="hero__pill" href="#schedule" id="heroCta">
+        <span class="hero__pill-dot" aria-hidden="true"></span>
+        <span>All are welcome</span>
+        <span class="hero__pill-dot" aria-hidden="true"></span>
+      </a>
+
+      <p class="hero__motto">Let's make it memorable</p>
+
+      <div class="hero__actions" id="heroActions">
+        <a class="btn btn--primary" href="#schedule">
+          <span>See the Schedule</span>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="btn btn--outline" href="#dresscode">
+          <span>Dress Code</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="section section--dark countdown-section" id="countdown" aria-labelledby="countdownTitle">
+    <svg class="countdown__watermark" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+      <line x1="30" y1="170" x2="170" y2="30"/>
+      <line x1="30" y1="30" x2="170" y2="170"/>
+      <circle cx="30" cy="170" r="5"/>
+      <circle cx="170" cy="30" r="5"/>
+      <circle cx="30" cy="30" r="5"/>
+      <circle cx="170" cy="170" r="5"/>
+      <circle cx="100" cy="100" r="14"/>
+      <circle cx="100" cy="100" r="6"/>
+    </svg>
+
+    <div class="container">
+      <div class="countdown-section__inner">
+        <span class="eyebrow" style="color:var(--gold-2)">
+          <span class="eyebrow__dot"></span>
+          <span>The Countdown</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="countdown-section__title" id="countdownTitle">
+          Until we <em>celebrate</em>
+        </h2>
+        <p class="countdown-section__lead">
+          Time remaining until 17 October 2026, 10:00 AM IST — synced live with your device.
+        </p>
+
+        <div class="countdown" id="countdownGrid" role="timer" aria-live="off">
+          <div class="countdown__unit">
+            <span class="countdown__value" data-unit="days">00</span>
+            <span class="countdown__label">Days</span>
+          </div>
+          <div class="countdown__unit">
+            <span class="countdown__value" data-unit="hours">00</span>
+            <span class="countdown__label">Hours</span>
+          </div>
+          <div class="countdown__unit">
+            <span class="countdown__value" data-unit="minutes">00</span>
+            <span class="countdown__label">Minutes</span>
+          </div>
+          <div class="countdown__unit">
+            <span class="countdown__value" data-unit="seconds">00</span>
+            <span class="countdown__label">Seconds</span>
+          </div>
+        </div>
+
+        <p class="countdown__started" id="countdownStarted" hidden>
+          The celebration has begun — see you there.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT SCHEDULE -->
+  <section class="section section--tint" id="schedule" aria-labelledby="scheduleTitle">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          <span>The Running Order</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="section__title" id="scheduleTitle">
+          Event <em>schedule</em>
+        </h2>
+        <p class="section__lead">
+          A look at how the day unfolds, from the welcome to the closing Dandiya round.
+        </p>
+      </div>
+
+      <ol class="schedule">
+        <li class="schedule__item">
+          <div class="schedule__time">
+            11:00 AM
+            <span class="schedule__time-sub">Start</span>
+          </div>
+          <span class="schedule__dot" aria-hidden="true"></span>
+          <div class="schedule__content">
+            <h3 class="schedule__title">Programme Begins <em>· Welcome</em></h3>
+            <p class="schedule__desc">
+              The day opens with a warm welcome to all guests, students and faculty.
+            </p>
+          </div>
+        </li>
+
+        <li class="schedule__item">
+          <div class="schedule__time">
+            11:45 AM
+            <span class="schedule__time-sub">Onwards</span>
+          </div>
+          <span class="schedule__dot" aria-hidden="true"></span>
+          <div class="schedule__content">
+            <h3 class="schedule__title">Freshers &amp; Farewell <em>segment</em></h3>
+            <p class="schedule__desc">
+              The Freshers welcome and Farewell tribute take the stage — speeches, memories,
+              and a heartfelt send-off for the outgoing batch.
+            </p>
+          </div>
+        </li>
+
+        <li class="schedule__item">
+          <div class="schedule__time">
+            1:00 – 2:00 PM
+            <span class="schedule__time-sub">Break</span>
+          </div>
+          <span class="schedule__dot" aria-hidden="true"></span>
+          <div class="schedule__content">
+            <h3 class="schedule__title">Food &amp; <em>Refreshments</em></h3>
+            <p class="schedule__desc">
+              A break for snacks and refreshments — mingle, meet new faces, and recharge
+              before the dance floor opens.
+            </p>
+          </div>
+        </li>
+
+        <li class="schedule__item">
+          <div class="schedule__time">
+            2:00 PM
+            <span class="schedule__time-sub">Onwards</span>
+          </div>
+          <span class="schedule__dot" aria-hidden="true"></span>
+          <div class="schedule__content">
+            <h3 class="schedule__title">Dandiya &amp; <em>Garba</em></h3>
+            <p class="schedule__desc">
+              The floor opens and the music lifts — Dandiya and Garba continue till the
+              day winds down.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="section section--base" id="highlights" aria-labelledby="highlightsTitle">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          <span>What Awaits You</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="section__title" id="highlightsTitle">
+          Event <em>highlights</em>
+        </h2>
+        <p class="section__lead">
+          Tap the Dandiya card to learn more.
+        </p>
+      </div>
+
+      <div class="highlights">
+        <button class="highlight" type="button" data-open="dandiya" aria-haspopup="dialog">
+          <svg class="highlight__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="40" x2="36" y2="8"/>
+            <line x1="36" y1="40" x2="12" y2="8"/>
+            <circle cx="12" cy="40" r="2.6" fill="currentColor" stroke="none"/>
+            <circle cx="36" cy="8" r="2.6" fill="currentColor" stroke="none"/>
+            <circle cx="36" cy="40" r="2.6" fill="currentColor" stroke="none"/>
+            <circle cx="12" cy="8" r="2.6" fill="currentColor" stroke="none"/>
+            <circle cx="24" cy="24" r="3" fill="none"/>
+          </svg>
+          <h3 class="highlight__title">Dandiya &amp; <em>Garba</em></h3>
+          <p class="highlight__text">Celebrate the rhythm, embrace the tradition, and dance your heart out.</p>
+          <span class="highlight__hint">
+            <span>Read more</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+
+        <button class="highlight" type="button" data-open="music" aria-haspopup="dialog">
+          <svg class="highlight__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="24" cy="16" r="3.5"/>
+            <path d="M20 22 L12 32"/>
+            <path d="M28 22 L36 32"/>
+            <path d="M12 32 Q 24 40 36 32"/>
+            <path d="M8 40 Q 24 46 40 40"/>
+          </svg>
+          <h3 class="highlight__title">Music &amp; <em>Singing</em></h3>
+          <p class="highlight__text">Live performances, singing rounds and musical energy.</p>
+        </button>
+
+        <button class="highlight" type="button" data-open="food" aria-haspopup="dialog">
+          <svg class="highlight__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 18 Q 8 12 14 12 L34 12 Q 40 12 40 18 L38 34 Q 38 40 32 40 L16 40 Q 10 40 10 34 Z"/>
+            <path d="M14 22 Q 24 30 34 22"/>
+            <circle cx="20" cy="18" r="1.2" fill="currentColor" stroke="none"/>
+            <circle cx="28" cy="18" r="1.2" fill="currentColor" stroke="none"/>
+          </svg>
+          <h3 class="highlight__title">Food &amp; <em>Refreshments</em></h3>
+          <p class="highlight__text">Snacks and refreshments served through the day.</p>
+        </button>
+
+        <button class="highlight" type="button" data-open="freshers" aria-haspopup="dialog">
+          <svg class="highlight__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="24" cy="14" r="5"/>
+            <path d="M12 40 Q 12 28 24 28 Q 36 28 36 40"/>
+            <circle cx="14" cy="20" r="3.5"/>
+            <circle cx="34" cy="20" r="3.5"/>
+          </svg>
+          <h3 class="highlight__title">Freshers &amp; <em>Farewell</em></h3>
+          <p class="highlight__text">Welcome for the new batch and tribute for the outgoing one.</p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE HONOURS — cinematic chapter-style awards -->
+  <section class="honours" id="honours" aria-labelledby="honoursTitle">
+    <div class="honours__grain" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="honours__head">
+        <span class="eyebrow" style="color:var(--gold-2)">
+          <span class="eyebrow__dot"></span>
+          <span>The Honours · 05 Awards</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="honours__title" id="honoursTitle">
+          Titles that make the <em>day</em>
+        </h2>
+        <p class="honours__lead">
+          Every celebration has its own legends — the ones who light up the room,
+          the ones we remember long after the lights go down. This is where we
+          name <em>five of them</em>.
+        </p>
+      </div>
+
+      <div class="honours__prelude">
+        <em>The Story Unfolds</em>
+        Five chapters. Five titles. Five moments of recognition, revealed one
+        after another as the day itself unfolds.
+      </div>
+
+      <ol class="honours__chapters">
+        <!-- CHAPTER 01 — MR. FRESHER -->
+        <li class="chapter">
+          <span class="chapter__ghost" aria-hidden="true">01</span>
+          <div class="chapter__body">
+            <h3 class="chapter__title">Mr. <em>Fresher</em></h3>
+          </div>
+        </li>
+
+        <!-- CHAPTER 02 — MISS FRESHER -->
+        <li class="chapter">
+          <span class="chapter__ghost" aria-hidden="true">02</span>
+          <div class="chapter__body">
+            <h3 class="chapter__title">Miss <em>Fresher</em></h3>
+          </div>
+        </li>
+
+        <!-- CHAPTER 03 — MR. FAREWELL -->
+        <li class="chapter">
+          <span class="chapter__ghost" aria-hidden="true">03</span>
+          <div class="chapter__body">
+            <h3 class="chapter__title">Mr. <em>Farewell</em></h3>
+          </div>
+        </li>
+
+        <!-- CHAPTER 04 — MISS FAREWELL -->
+        <li class="chapter">
+          <span class="chapter__ghost" aria-hidden="true">04</span>
+          <div class="chapter__body">
+            <h3 class="chapter__title">Miss <em>Farewell</em></h3>
+          </div>
+        </li>
+
+        <!-- CHAPTER 05 — BEST PERFORMER -->
+        <li class="chapter">
+          <span class="chapter__ghost" aria-hidden="true">05</span>
+          <div class="chapter__body">
+            <h3 class="chapter__title">Best <em>Performer</em></h3>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="section section--tint" id="dresscode" aria-labelledby="dcTitle">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          <span>What to Wear</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="section__title" id="dcTitle">
+          Dress <em>code</em>
+        </h2>
+        <p class="section__lead">Traditional &amp; Ethnic Wear</p>
+      </div>
+
+      <svg class="dresscode__motif" viewBox="0 0 100 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="14" y1="44" x2="86" y2="12"/>
+        <line x1="14" y1="12" x2="86" y2="44"/>
+        <circle cx="14" cy="44" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="86" cy="12" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="14" cy="12" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="86" cy="44" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="50" cy="28" r="3" fill="none"/>
+      </svg>
+
+      <div class="dresscode">
+        <div class="dresscode__col">
+          <p class="dresscode__eyebrow">
+            <span class="dresscode__emoji" aria-hidden="true">👔</span>
+            <span>Boys' Dress Code</span>
+          </p>
+          <ul class="dresscode__list">
+            <li>Kurta Pajama</li>
+            <li>Colorful Shirt &amp; Pant
+              <span class="dresscode__list-note">(avoid white or black shirt)</span>
+            </li>
+          </ul>
+          <p class="dresscode__note">
+            Choose any outfit that is comfortable and gives a formal, traditional look.
+          </p>
+          <p class="dresscode__warn">
+            T-Shirts, Lower &amp; Casual Wear are <em>strictly not allowed.</em>
+          </p>
+        </div>
+
+        <div class="dresscode__col">
+          <p class="dresscode__eyebrow">
+            <span class="dresscode__emoji" aria-hidden="true">👗</span>
+            <span>Girls' Dress Code</span>
+          </p>
+          <ul class="dresscode__list">
+            <li>Saree</li>
+            <li>Traditional Suit</li>
+            <li>Garba Dress</li>
+            <li>Ghagra Set</li>
+          </ul>
+          <p class="dresscode__note">
+            Choose any traditional outfit that is comfortable and elegant.
+          </p>
+          <p class="dresscode__warn">
+            Sleeveless, Backless, Body-Showing &amp; Cut-Out Dresses are <em>strictly not allowed.</em>
+          </p>
+          <p class="dresscode__note dresscode__note--tight">
+            Please ensure your outfit maintains dignity and follows the traditional theme.
+          </p>
+        </div>
+      </div>
+
+      <div class="dresscode__notice">
+        <p class="dresscode__notice-label">Important Notice</p>
+        <p class="dresscode__notice-text">
+          All attendees are requested to strictly follow the dress code. Please wear comfortable,
+          elegant, and appropriate traditional attire.
+        </p>
+      </div>
+
+      <p class="dresscode__tagline">
+        <span>Traditional Look</span>
+        <span class="dresscode__tagline-dot" aria-hidden="true">•</span>
+        <span>Elegant Vibes</span>
+        <span class="dresscode__tagline-dot" aria-hidden="true">•</span>
+        <span>Festive Spirit</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- VENUE -->
+  <section class="section section--tint" id="venue" aria-labelledby="venueTitle">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          <span>Where it Happens</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="section__title" id="venueTitle">
+          The <em>venue</em>
+        </h2>
+      </div>
+
+      <div class="venue">
+        <div class="venue__info">
+          <span class="venue__label">Venue</span>
+          <h3 class="venue__name">Mannat <em>Lawn</em></h3>
+          <p class="venue__address">Chandmari, Varanasi,<br/>Uttar Pradesh, India</p>
+        </div>
+
+        <div class="venue__map">
+          <iframe
+            src="https://www.google.com/maps?q=Mannat+Lawn+Chandmari+Varanasi&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mannat Lawn on Google Maps"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="venue__footer">
+        <a class="btn btn--primary"
+           href="https://www.google.com/maps/search/?api=1&query=Mannat+Lawn+Chandmari+Varanasi"
+           target="_blank" rel="noopener noreferrer">
+          <span>Get Directions</span>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <p class="venue__note">
+          Directions open in Google Maps in a new tab.
+          <em>Please verify the route before travelling.</em>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVITATION -->
+  <section class="card-section" id="card" aria-labelledby="cardTitle">
+
+    <svg class="card-section__foliage card-section__foliage--tl" viewBox="0 0 200 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M0 20 Q 40 30 60 50 Q 80 70 100 65 Q 120 60 130 40"/>
+      <path d="M20 28 Q 28 20 36 24 Q 32 34 22 34 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M50 48 Q 58 40 66 44 Q 62 54 52 54 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M92 62 Q 100 54 108 58 Q 104 68 94 68 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <circle cx="110" cy="30" r="4" fill="currentColor" opacity="0.5" stroke="none"/>
+      <circle cx="118" cy="24" r="3" fill="currentColor" opacity="0.4" stroke="none"/>
+      <circle cx="104" cy="22" r="3" fill="currentColor" opacity="0.4" stroke="none"/>
+      <circle cx="40" cy="60" r="2.5" fill="currentColor" opacity="0.5" stroke="none"/>
+      <circle cx="60" cy="70" r="2.5" fill="currentColor" opacity="0.5" stroke="none"/>
+    </svg>
+
+    <svg class="card-section__foliage card-section__foliage--tr" viewBox="0 0 200 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M0 20 Q 40 30 60 50 Q 80 70 100 65 Q 120 60 130 40"/>
+      <path d="M20 28 Q 28 20 36 24 Q 32 34 22 34 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M50 48 Q 58 40 66 44 Q 62 54 52 54 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M92 62 Q 100 54 108 58 Q 104 68 94 68 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <circle cx="110" cy="30" r="4" fill="currentColor" opacity="0.5" stroke="none"/>
+      <circle cx="118" cy="24" r="3" fill="currentColor" opacity="0.4" stroke="none"/>
+      <circle cx="104" cy="22" r="3" fill="currentColor" opacity="0.4" stroke="none"/>
+    </svg>
+
+    <svg class="card-section__foliage card-section__foliage--bl" viewBox="0 0 200 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M0 20 Q 40 30 60 50 Q 80 70 100 65 Q 120 60 130 40"/>
+      <path d="M20 28 Q 28 20 36 24 Q 32 34 22 34 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M50 48 Q 58 40 66 44 Q 62 54 52 54 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <circle cx="110" cy="30" r="4" fill="currentColor" opacity="0.5" stroke="none"/>
+      <circle cx="40" cy="60" r="2.5" fill="currentColor" opacity="0.5" stroke="none"/>
+    </svg>
+
+    <svg class="card-section__foliage card-section__foliage--br" viewBox="0 0 200 120" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M0 20 Q 40 30 60 50 Q 80 70 100 65 Q 120 60 130 40"/>
+      <path d="M20 28 Q 28 20 36 24 Q 32 34 22 34 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <path d="M50 48 Q 58 40 66 44 Q 62 54 52 54 Z" fill="currentColor" opacity="0.35" stroke="none"/>
+      <circle cx="110" cy="30" r="4" fill="currentColor" opacity="0.5" stroke="none"/>
+    </svg>
+
+    <div class="container">
+      <div class="card-section__head">
+        <span class="eyebrow" style="color:var(--gold-2)">
+          <span class="eyebrow__dot"></span>
+          <span>Shareable · Digital</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+        <h2 class="card-section__title" id="cardTitle">
+          The <em>invitation</em>
+        </h2>
+        <p class="card-section__sub">
+          Save it, keep it, share it with anyone who should be there.
+        </p>
+      </div>
+
+      <article class="invite-card" id="inviteCard" aria-label="Event invitation card">
+
+        <div class="invite-card__bg" aria-hidden="true"></div>
+
+        <svg class="invite-card__mandala" viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="0.6" aria-hidden="true">
+          <circle cx="200" cy="200" r="190"/>
+          <circle cx="200" cy="200" r="150"/>
+          <circle cx="200" cy="200" r="110"/>
+          <circle cx="200" cy="200" r="70"/>
+          <circle cx="200" cy="200" r="30"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(45 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(90 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(135 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(180 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(225 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(270 200 200)"/>
+          <path d="M200 20 C 215 80, 215 120, 200 160 C 185 120, 185 80, 200 20 Z" transform="rotate(315 200 200)"/>
+        </svg>
+
+        <svg class="invite-card__arch invite-card__arch--tl" viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 0 L 300 0 L 300 12 Q 200 40 100 70 Q 40 90 0 120 Z" fill="#1E3A6B"/>
+          <path d="M0 0 L 300 0 L 300 12 Q 200 40 100 70 Q 40 90 0 120" fill="none" stroke="#C9A961" stroke-width="1"/>
+        </svg>
+        <svg class="invite-card__arch invite-card__arch--tr" viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M300 0 L 0 0 L 0 12 Q 100 40 200 70 Q 260 90 300 120 Z" fill="#1E3A6B"/>
+          <path d="M300 0 L 0 0 L 0 12 Q 100 40 200 70 Q 260 90 300 120" fill="none" stroke="#C9A961" stroke-width="1"/>
+        </svg>
+        <svg class="invite-card__arch invite-card__arch--bl" viewBox="0 0 340 160" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 160 L 0 20 Q 80 60 160 90 Q 240 118 340 130 L 340 160 Z" fill="#1E3A6B"/>
+          <path d="M0 20 Q 80 60 160 90 Q 240 118 340 130" fill="none" stroke="#C9A961" stroke-width="1"/>
+        </svg>
+        <svg class="invite-card__arch invite-card__arch--br" viewBox="0 0 340 160" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M340 160 L 340 20 Q 260 60 180 90 Q 100 118 0 130 L 0 160 Z" fill="#1E3A6B"/>
+          <path d="M340 20 Q 260 60 180 90 Q 100 118 0 130" fill="none" stroke="#C9A961" stroke-width="1"/>
+        </svg>
+
+        <span class="invite-card__sparkle invite-card__sparkle--1" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+        </span>
+        <span class="invite-card__sparkle invite-card__sparkle--2" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+        </span>
+        <span class="invite-card__sparkle invite-card__sparkle--3" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+        </span>
+        <span class="invite-card__sparkle invite-card__sparkle--4" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0 L9.5 6.5 L16 8 L9.5 9.5 L8 16 L6.5 9.5 L0 8 L6.5 6.5 Z"/></svg>
+        </span>
+
+        <div class="invite-card__corner invite-card__corner--tl">
+          <p class="invite-card__corner-title">Rajarshi School</p>
+          <p class="invite-card__corner-sub">BCA Department</p>
+        </div>
+        <div class="invite-card__corner invite-card__corner--tr">
+          <span class="invite-card__badge">
+            <span class="invite-card__badge-line">Invitation</span>
+            <span class="invite-card__badge-line">Card</span>
+          </span>
+        </div>
+
+        <svg class="invite-card__lanterns" viewBox="0 0 60 130" fill="none" aria-hidden="true">
+          <line x1="20" y1="0" x2="20" y2="22" stroke="#C9A961" stroke-width="0.8"/>
+          <line x1="40" y1="0" x2="40" y2="30" stroke="#C9A961" stroke-width="0.8"/>
+          <path d="M10 22 L 30 22 L 28 48 Q 20 52 12 48 Z" fill="#1E3A6B" stroke="#C9A961" stroke-width="0.9"/>
+          <path d="M10 22 L 30 22" stroke="#D9BD7E" stroke-width="1"/>
+          <path d="M12 48 L 28 48" stroke="#D9BD7E" stroke-width="1"/>
+          <circle cx="20" cy="35" r="2" fill="#D9BD7E" opacity="0.9"/>
+          <path d="M32 30 L 48 30 L 46 52 Q 40 56 34 52 Z" fill="#1E3A6B" stroke="#C9A961" stroke-width="0.9"/>
+          <path d="M32 30 L 48 30" stroke="#D9BD7E" stroke-width="1"/>
+          <path d="M34 52 L 46 52" stroke="#D9BD7E" stroke-width="1"/>
+          <circle cx="40" cy="40" r="1.6" fill="#D9BD7E" opacity="0.9"/>
+          <line x1="20" y1="52" x2="20" y2="72" stroke="#D9BD7E" stroke-width="0.7"/>
+          <line x1="40" y1="56" x2="40" y2="70" stroke="#D9BD7E" stroke-width="0.7"/>
+          <circle cx="20" cy="74" r="1.8" fill="#D9BD7E"/>
+          <circle cx="40" cy="72" r="1.6" fill="#D9BD7E"/>
+        </svg>
+
+        <svg class="invite-card__dandiya-left" viewBox="0 0 100 140" fill="none" aria-hidden="true">
+          <g transform="rotate(28 30 70)">
+            <rect x="14" y="20" width="10" height="80" rx="5" fill="#C92A5C"/>
+            <rect x="12" y="14" width="14" height="12" rx="3" fill="#C9A961"/>
+            <rect x="13" y="34" width="12" height="4" fill="#C9A961"/>
+            <rect x="13" y="54" width="12" height="4" fill="#C9A961"/>
+            <rect x="13" y="74" width="12" height="4" fill="#C9A961"/>
+            <path d="M19 42 L 24 47 L 19 52 L 14 47 Z" fill="#D9BD7E"/>
+            <path d="M19 62 L 24 67 L 19 72 L 14 67 Z" fill="#D9BD7E"/>
+            <circle cx="19" cy="106" r="4" fill="#C9A961"/>
+            <path d="M19 110 L 12 128 M19 110 L 19 132 M19 110 L 26 128" stroke="#D9BD7E" stroke-width="1.6" stroke-linecap="round"/>
+          </g>
+          <g transform="rotate(-28 60 70)">
+            <rect x="52" y="20" width="10" height="80" rx="5" fill="#D9BD7E"/>
+            <rect x="50" y="14" width="14" height="12" rx="3" fill="#C92A5C"/>
+            <rect x="51" y="34" width="12" height="4" fill="#C92A5C"/>
+            <rect x="51" y="54" width="12" height="4" fill="#C92A5C"/>
+            <rect x="51" y="74" width="12" height="4" fill="#C92A5C"/>
+            <path d="M57 42 L 62 47 L 57 52 L 52 47 Z" fill="#1E4A42"/>
+            <path d="M57 62 L 62 67 L 57 72 L 52 67 Z" fill="#1E4A42"/>
+            <circle cx="57" cy="106" r="4" fill="#C92A5C"/>
+            <path d="M57 110 L 50 128 M57 110 L 57 132 M57 110 L 64 128" stroke="#D9BD7E" stroke-width="1.6" stroke-linecap="round"/>
+          </g>
+        </svg>
+
+        <svg class="invite-card__dandiya-right" viewBox="0 0 60 140" fill="none" aria-hidden="true">
+          <rect x="24" y="20" width="10" height="80" rx="5" fill="#C92A5C"/>
+          <rect x="22" y="14" width="14" height="12" rx="3" fill="#D9BD7E"/>
+          <rect x="23" y="34" width="12" height="4" fill="#D9BD7E"/>
+          <rect x="23" y="54" width="12" height="4" fill="#D9BD7E"/>
+          <rect x="23" y="74" width="12" height="4" fill="#D9BD7E"/>
+          <path d="M29 42 L 34 47 L 29 52 L 24 47 Z" fill="#1E4A42"/>
+          <path d="M29 62 L 34 67 L 29 72 L 24 67 Z" fill="#1E4A42"/>
+          <circle cx="29" cy="106" r="4" fill="#D9BD7E"/>
+          <path d="M29 110 L 20 130 M29 110 L 29 134 M29 110 L 38 130" stroke="#C9A961" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+
+        <svg class="invite-card__matka" viewBox="0 0 120 130" fill="none" aria-hidden="true">
+          <path d="M30 45 Q 18 65 18 85 Q 18 115 60 115 Q 102 115 102 85 Q 102 65 90 45 Q 76 34 60 34 Q 44 34 30 45 Z" fill="#C9A961"/>
+          <ellipse cx="60" cy="38" rx="22" ry="6" fill="#D9BD7E"/>
+          <ellipse cx="60" cy="38" rx="22" ry="6" fill="none" stroke="#F0E4C8" stroke-width="1.2"/>
+          <ellipse cx="60" cy="36" rx="16" ry="3.5" fill="#1E3A6B"/>
+          <path d="M22 62 Q 60 74 98 62" stroke="#C92A5C" stroke-width="1.6" fill="none"/>
+          <path d="M24 92 Q 60 104 96 92" stroke="#C92A5C" stroke-width="1.6" fill="none"/>
+          <circle cx="42" cy="76" r="2" fill="#C92A5C"/>
+          <circle cx="60" cy="80" r="2" fill="#1E4A42"/>
+          <circle cx="78" cy="76" r="2" fill="#C92A5C"/>
+          <g transform="rotate(20 60 105)">
+            <rect x="56" y="96" width="6" height="34" rx="3" fill="#C92A5C"/>
+            <rect x="55" y="94" width="8" height="6" rx="1.5" fill="#D9BD7E"/>
+          </g>
+          <g transform="rotate(-30 60 105)">
+            <rect x="56" y="96" width="6" height="34" rx="3" fill="#1E4A42"/>
+            <rect x="55" y="94" width="8" height="6" rx="1.5" fill="#D9BD7E"/>
+          </g>
+          <path d="M14 60 Q 22 55 28 60 Q 22 68 14 60 Z" fill="#D9BD7E" opacity="0.8"/>
+          <path d="M100 60 Q 108 55 106 62 Q 98 66 100 60 Z" fill="#D9BD7E" opacity="0.8"/>
+        </svg>
+
+        <svg class="invite-card__dancers" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+          <g>
+            <circle cx="60" cy="55" r="10" fill="#F0E4C8"/>
+            <path d="M50 55 Q 60 42 70 55" fill="#C92A5C"/>
+            <path d="M48 70 L 28 45" stroke="#D9BD7E" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M72 70 L 92 45" stroke="#D9BD7E" stroke-width="4.5" stroke-linecap="round"/>
+            <line x1="28" y1="45" x2="18" y2="32" stroke="#C9A961" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="18" cy="32" r="2.6" fill="#C92A5C"/>
+            <line x1="92" y1="45" x2="102" y2="32" stroke="#C9A961" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="102" cy="32" r="2.6" fill="#C92A5C"/>
+            <path d="M46 70 Q 60 85 74 70 L 78 105 Q 60 112 42 105 Z" fill="#C92A5C"/>
+            <path d="M42 105 Q 12 140 8 175 Q 60 190 112 175 Q 108 140 78 105 Z" fill="#C92A5C"/>
+            <path d="M8 175 Q 60 190 112 175" stroke="#D9BD7E" stroke-width="2" fill="none"/>
+            <circle cx="35" cy="140" r="2" fill="#D9BD7E"/>
+            <circle cx="60" cy="150" r="2" fill="#D9BD7E"/>
+            <circle cx="85" cy="140" r="2" fill="#D9BD7E"/>
+            <path d="M14 165 L 22 168 M 40 178 L 50 180 M 70 180 L 80 178 M 100 165 L 106 162"
+                  stroke="#D9BD7E" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+          </g>
+          <g>
+            <circle cx="148" cy="50" r="10" fill="#F0E4C8"/>
+            <path d="M138 44 Q 148 32 158 44 Q 155 38 148 36 Q 141 38 138 44 Z" fill="#D9BD7E"/>
+            <circle cx="148" cy="38" r="2.2" fill="#C92A5C"/>
+            <path d="M136 68 L 118 44" stroke="#D9BD7E" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M160 68 L 178 44" stroke="#D9BD7E" stroke-width="4.5" stroke-linecap="round"/>
+            <line x1="118" y1="44" x2="108" y2="30" stroke="#C9A961" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="108" cy="30" r="2.6" fill="#C92A5C"/>
+            <line x1="178" y1="44" x2="188" y2="30" stroke="#C9A961" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="188" cy="30" r="2.6" fill="#C92A5C"/>
+            <path d="M136 68 Q 148 82 160 68 L 162 130 L 134 130 Z" fill="#C92A5C"/>
+            <path d="M134 130 L 162 130" stroke="#D9BD7E" stroke-width="2"/>
+            <path d="M148 82 L 148 130" stroke="#D9BD7E" stroke-width="1" opacity="0.5"/>
+            <path d="M140 130 L 130 175" stroke="#A8843F" stroke-width="5" stroke-linecap="round"/>
+            <path d="M156 130 L 166 175" stroke="#A8843F" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="130" cy="178" r="3" fill="#D9BD7E"/>
+            <circle cx="166" cy="178" r="3" fill="#D9BD7E"/>
+          </g>
+          <path d="M4 100 L 6 102 L 8 100 L 6 98 Z" fill="#D9BD7E" opacity="0.8"/>
+          <path d="M192 100 L 194 102 L 196 100 L 194 98 Z" fill="#D9BD7E" opacity="0.8"/>
+          <path d="M10 40 L 12 42 L 14 40 L 12 38 Z" fill="#D9BD7E" opacity="0.6"/>
+          <path d="M188 40 L 190 42 L 192 40 L 190 38 Z" fill="#D9BD7E" opacity="0.6"/>
+        </svg>
+
+        <div class="invite-card__body">
+
+          <p class="invite-card__invite">You are cordially invited to</p>
+
+          <div class="invite-card__divider" aria-hidden="true">
+            <span class="invite-card__divider-line"></span>
+            <span class="invite-card__divider-mark">✦</span>
+            <span class="invite-card__divider-line"></span>
+          </div>
+
+          <svg class="invite-card__flourish" viewBox="0 0 100 20" fill="none" aria-hidden="true">
+            <path d="M10 14 Q 50 -2 90 14" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M50 4 L 53 8 L 50 12 L 47 8 Z" fill="currentColor"/>
+          </svg>
+
+          <h2 class="invite-card__title">
+            <span class="invite-card__title-main">Freshers <em>&amp;</em> Farewell</span>
+            <span class="invite-card__title-script">Party</span>
+          </h2>
+
+          <p class="invite-card__sub">
+            New beginnings, cherished memories,<br/>
+            and a day to celebrate together.
+          </p>
+
+          <div class="invite-card__details">
+            <div class="invite-card__detail">
+              <svg class="invite-card__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="16" rx="2"/>
+                <path d="M3 10h18M8 3v4M16 3v4"/>
+                <circle cx="8" cy="15" r="0.8" fill="currentColor"/>
+                <circle cx="12" cy="15" r="0.8" fill="currentColor"/>
+                <circle cx="16" cy="15" r="0.8" fill="currentColor"/>
+              </svg>
+              <span class="invite-card__detail-label">Date</span>
+              <span class="invite-card__detail-value">Saturday, 17 October 2026</span>
+            </div>
+            <div class="invite-card__detail">
+              <svg class="invite-card__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 7v5l3 2"/>
+              </svg>
+              <span class="invite-card__detail-label">Time</span>
+              <span class="invite-card__detail-value">10:00 AM onwards</span>
+            </div>
+            <div class="invite-card__detail">
+              <svg class="invite-card__detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.5"/>
+              </svg>
+              <span class="invite-card__detail-label">Venue</span>
+              <span class="invite-card__detail-value">Chandmari, Varanasi</span>
+            </div>
+          </div>
+
+          <div class="invite-card__venue">
+            <span>Mannat Lawn</span>
+          </div>
+
+          <div class="invite-card__welcome">
+            <span>All are welcome</span>
+          </div>
+
+          <p class="invite-card__motto">Let's make it memorable</p>
+
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="section section--tint closing" aria-labelledby="closingTitle">
+    <div class="container">
+      <div class="closing__inner">
+        <span class="closing__dandiya" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="82" x2="82" y2="18"/>
+            <line x1="18" y1="18" x2="82" y2="82"/>
+            <circle cx="18" cy="82" r="3.6" fill="currentColor" stroke="none"/>
+            <circle cx="82" cy="18" r="3.6" fill="currentColor" stroke="none"/>
+            <circle cx="18" cy="18" r="3.6" fill="currentColor" stroke="none"/>
+            <circle cx="82" cy="82" r="3.6" fill="currentColor" stroke="none"/>
+          </svg>
+        </span>
+
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          <span>See You There</span>
+          <span class="eyebrow__dot"></span>
+        </span>
+
+        <h2 class="closing__title" id="closingTitle">
+          Come, dance, and make <em>unforgettable memories</em>
+        </h2>
+        <p class="closing__lead">
+          Let's make Dandiya Dhamaka a grand success — together.
+        </p>
+
+        <div class="closing__actions">
+          <a class="btn btn--primary" href="#venue">
+            <span>View Venue Details</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a class="btn btn--outline" href="#card">
+            <span>Open Invitation Card</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <svg class="site-footer__deco" viewBox="0 0 200 120" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <line x1="30" y1="100" x2="170" y2="20"/>
+    <line x1="30" y1="20" x2="170" y2="100"/>
+    <circle cx="30" cy="100" r="4" fill="currentColor" stroke="none"/>
+    <circle cx="170" cy="20" r="4" fill="currentColor" stroke="none"/>
+    <circle cx="30" cy="20" r="4" fill="currentColor" stroke="none"/>
+    <circle cx="170" cy="100" r="4" fill="currentColor" stroke="none"/>
+  </svg>
+
+  <div class="site-footer__inner">
+    <p class="site-footer__college">Rajarshi School of Management &amp; Technology</p>
+    <p class="site-footer__event">BCA · Freshers &amp; Farewell · Dandiya Dhamaka</p>
+    <div class="site-footer__divider"></div>
+    <p class="site-footer__note">17 October 2026 · 10:00 AM onwards</p>
+    <p class="site-footer__note">Mannat Lawn, Chandmari, Varanasi, Uttar Pradesh</p>
+    <p class="site-footer__note">Organised by BCA Students</p>
+  </div>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" id="modalPanel">
+    <button class="modal__close" type="button" data-close aria-label="Close dialog">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path d="M3 3l10 10M13 3L3 13" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <span class="modal__eyebrow">
+      <span class="modal__eyebrow-rule"></span>
+      <span class="eyebrow" id="modalEyebrow">Details</span>
+    </span>
+    <h2 class="modal__title" id="modalTitle"></h2>
+    <p class="modal__subtitle" id="modalSubtitle"></p>
+    <div id="modalBody"></div>
+    <div class="modal__foot" id="modalFoot">
+      <button class="btn btn--primary" type="button" data-close>
+        <span>Got it</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script>
+const EVENT_DATE = "2026-10-17T10:00:00+05:30";
+const HAS_GSAP = typeof gsap !== "undefined";
+const HAS_ST   = typeof ScrollTrigger !== "undefined";
+const REDUCED  = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (HAS_GSAP && HAS_ST) gsap.registerPlugin(ScrollTrigger);
+
+const MODAL_DATA = {
+  dandiya: {
+    eyebrow: "Event Highlight",
+    title: "Dandiya & <em>Garba</em>",
+    subtitle: "Celebrate the rhythm, embrace the tradition, and dance your heart out.",
+    sections: [
+      { icon: "star", label: "About", text: "Get ready for a day full of festive vibes, traditional moves, and joyful celebrations! Join us for Dandiya and Garba and experience the spirit of tradition with music, dance, and unforgettable memories." },
+      { icon: "list", label: "What to Know", list: [
+        "<strong>Dandiya Sticks:</strong> Dandiya sticks will not be provided. Participants who wish to play Dandiya must bring their own sticks.",
+        "<strong>Garba Timing:</strong> Garba will begin as per the event schedule. Please be on time and ready to join the celebration.",
+        "<strong>Learn &amp; Get Ready:</strong> Watch the reference video linked below to understand the Garba dance steps and get familiar with the moves before the event."
+      ]},
+      { icon: "video", label: "Reference Video", text: "Garba dance steps — watch this short video to get familiar with the moves.", action: { label: "Watch on YouTube", href: "https://youtube.com/shorts/lcud_Rg4DTI?si=QaqjjQdXCK-jOgtY" } }
+    ]
+  },
+  music: {
+    eyebrow: "Event Highlight",
+    title: "Music & <em>Singing</em>",
+    subtitle: "Live performances, singing rounds and musical energy.",
+    sections: [
+      { icon: "star", label: "About", text: "A vibrant mix of live music, student performances, and open singing rounds. Whether you play an instrument, sing, or just love to listen, this part of the day has something for you." },
+      { icon: "list", label: "What to know", list: [
+        "Student-led live performances",
+        "Open mic singing round",
+        "Backing musicians provided",
+        "Sign-up before 12 October"
+      ]}
+    ]
+  },
+  food: {
+    eyebrow: "Event Highlight",
+    title: "Food & <em>Refreshments</em>",
+    subtitle: "Snacks and refreshments served through the day.",
+    sections: [
+      { icon: "star", label: "About", text: "A range of snacks and refreshments to keep everyone energized — these are available through the day so no one dances on an empty stomach." },
+      { icon: "list", label: "What's available", list: [
+        "Welcome drinks — available on arrival",
+        "Snacks — available mid-event",
+        "Main course — available during the break",
+        "Jain / veg options — available on request"
+      ]}
+    ]
+  },
+  freshers: {
+    eyebrow: "Event Highlight",
+    title: "Freshers & <em>Farewell</em>",
+    subtitle: "A welcome for the new batch and a tribute to the outgoing one.",
+    sections: [
+      { icon: "star", label: "About", text: "The two emotional anchors of the day. A warm welcome to the incoming batch, and a heartfelt tribute to the outgoing one. Speeches, small performances, and memories shared." },
+      { icon: "list", label: "What to know", list: [
+        "Welcome address for the new batch",
+        "Farewell tributes for the graduating batch",
+        "Short performances by juniors",
+        "Group photo and closing note"
+      ]}
+    ]
+  }
+};
+
+const MODAL_ICONS = {
+  star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.3 6.2L20 10l-5 4.6L16.5 21 12 17.5 7.5 21 9 14.6 4 10l5.7-.8z"/></svg>',
+  list: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>',
+  video: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>'
+};
+
+function playIntro() {
+  return new Promise(resolve => {
+    const html = document.documentElement;
+    const overlay = document.getElementById('intro');
+    if (!html.classList.contains('has-intro') || REDUCED || !HAS_GSAP) {
+      html.classList.remove('has-intro');
+      if (overlay) overlay.style.display = 'none';
+      resolve(false); return;
+    }
+
+    const doorL = document.getElementById('doorLeft');
+    const doorR = document.getElementById('doorRight');
+    const seam  = document.getElementById('introSeam');
+    const light = document.getElementById('introLight');
+
+    gsap.set([doorL, doorR], { rotateY: 0, opacity: 1 });
+    gsap.set(seam, { opacity: 1 });
+    gsap.set(light, { opacity: 0, width: 0 });
+    gsap.set('#heroTop, #heroSubtitle, #heroFacts, #heroCta, #heroActions, .hero__motto', { opacity: 0, y: 20 });
+    gsap.set('#heroTitleSerif', { yPercent: 110 });
+    gsap.set('#heroTitleScript', { opacity: 0, y: 20, scale: .95 });
+    gsap.set('.hero__swash', { opacity: 0 });
+    gsap.set('.hero__corner, .hero__sparkle, .hero__dandiya, .hero__dancer', { opacity: 0 });
+    gsap.set('.hero__circle', { opacity: 0, scale: 1.08 });
+
+    const tl = gsap.timeline({
+      onComplete: () => {
+        html.classList.remove('has-intro');
+        if (overlay) overlay.style.display = 'none';
+        window.__introTl = null;
+        resolve(true);
+      }
+    });
+    window.__introTl = tl;
+
+    tl.to({}, { duration: 0.55 })
+      .to(seam, { opacity: 0.9, duration: 0.35, ease: "power2.out" })
+      .to(light, { opacity: 0.65, width: 30, duration: 0.45, ease: "power2.out" }, "-=0.1")
+      .to({}, { duration: 0.2 })
+      .to(light, { opacity: 1, width: 100, duration: 0.55, ease: "power2.in" }, ">")
+      .to(doorL, { rotateY: -125, duration: 2.0, ease: "power3.inOut" }, "-=0.35")
+      .to(doorR, { rotateY: 125,  duration: 2.0, ease: "power3.inOut" }, "<")
+      .to('.hero__circle', { opacity: 0.16, scale: 1, duration: 1.0, ease: "power2.out" }, "<0.3")
+      .to('.hero__corner', { opacity: 0.5, duration: 0.9, stagger: 0.08, ease: "power2.out" }, "<0.1")
+      .to('.hero__sparkle', { opacity: (i) => [0.5, 0.38, 0.32][i] || 0.45, duration: 0.8, stagger: 0.1, ease: "power2.out" }, "<")
+      .to(['.hero__dandiya', '.hero__dancer'], { opacity: 0.42, duration: 1.0, ease: "power2.out" }, "<")
+      .to('#heroTop', { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, "<0.1")
+      .to('#heroTitleSerif', { yPercent: 0, duration: 1.1, ease: "power3.out" }, "<0.15")
+      .to('.hero__swash', { opacity: 0.85, duration: 0.7, ease: "power2.out" }, "<0.5")
+      .to('#heroTitleScript', { opacity: 1, y: 0, scale: 1, duration: 0.9, ease: "power2.out" }, "<0.1")
+      .to('#heroSubtitle', { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, "<0.3")
+      .to('#heroFacts', { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, "<0.1")
+      .to('#heroCta', { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, "<0.15")
+      .to('.hero__motto', { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, "<0.1")
+      .to('#heroActions', { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, "<0.1")
+      .to(light, { opacity: 0.3, width: 200, duration: 1.4, ease: "power2.out" }, "<0.1")
+      .to(seam, { opacity: 0, duration: 0.4, ease: "power2.out" }, "-=1.3")
+      .to([doorL, doorR], { opacity: 0, duration: 0.7, ease: "power2.in" }, "-=0.3")
+      .to(light, { opacity: 0, duration: 0.5, ease: "power2.in" }, "<")
+      .to(overlay, { opacity: 0, duration: 0.5, ease: "power2.in" }, "-=0.3");
+  });
+}
+
+(async function init() {
+  try {
+    const played = await playIntro();
+    if (!played && HAS_GSAP) {
+      gsap.set('#heroTop, #heroSubtitle, #heroFacts, #heroCta, #heroActions, .hero__motto', { opacity: 1, y: 0 });
+      gsap.set('#heroTitleSerif', { yPercent: 0 });
+      gsap.set('#heroTitleScript', { opacity: 1, y: 0, scale: 1 });
+      gsap.set('.hero__swash', { opacity: 0.85 });
+      gsap.set('.hero__corner', { opacity: 0.5 });
+      gsap.set('.hero__sparkle', { opacity: 0.45 });
+      gsap.set('.hero__dandiya, .hero__dancer', { opacity: 0.42 });
+      gsap.set('.hero__circle', { opacity: 0.16, scale: 1 });
+    }
+  } catch (err) {
+    console.warn("Intro failed:", err);
+    document.documentElement.classList.remove('has-intro');
+    const overlay = document.getElementById('intro');
+    if (overlay) overlay.style.display = 'none';
+    if (HAS_GSAP) {
+      gsap.set('#heroTop, #heroSubtitle, #heroFacts, #heroCta, #heroActions, .hero__motto', { clearProps: 'all' });
+      gsap.set('#heroTitleSerif, #heroTitleScript', { clearProps: 'all' });
+    }
+  }
+})();
+
+(function(){
+  const skip = document.getElementById('introSkip');
+  if (!skip) return;
+  skip.addEventListener('click', () => {
+    if (window.__introTl) { window.__introTl.kill(); window.__introTl = null; }
+    document.documentElement.classList.remove('has-intro');
+    const overlay = document.getElementById('intro');
+    if (overlay) overlay.style.display = 'none';
+    if (HAS_GSAP) {
+      gsap.set('#heroTop, #heroSubtitle, #heroFacts, #heroCta, #heroActions, .hero__motto', { opacity: 1, y: 0 });
+      gsap.set('#heroTitleSerif', { yPercent: 0 });
+      gsap.set('#heroTitleScript', { opacity: 1, y: 0, scale: 1 });
+      gsap.set('.hero__swash', { opacity: 0.85 });
+      gsap.set('.hero__corner', { opacity: 0.5 });
+      gsap.set('.hero__sparkle', { opacity: 0.45 });
+      gsap.set('.hero__dandiya, .hero__dancer', { opacity: 0.42 });
+      gsap.set('.hero__circle', { opacity: 0.16, scale: 1 });
+    }
+  });
+})();
+
+(function(){
+  const header = document.getElementById('siteHeader');
+  if (!header) return;
+  let ticking = false;
+  const update = () => { header.classList.toggle('is-scrolled', window.scrollY > 40); ticking = false; };
+  window.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  update();
+})();
+
+(function(){
+  if (!HAS_GSAP || !HAS_ST || REDUCED) return;
+
+  document.querySelectorAll('.section__head').forEach(head => {
+    gsap.from(head.children, {
+      opacity: 0, y: 14, duration: 0.55, stagger: 0.06, ease: "power2.out",
+      scrollTrigger: { trigger: head, start: "top 88%", once: true }
+    });
+  });
+  gsap.from('.countdown__unit', {
+    opacity: 0, y: 16, duration: 0.55, stagger: 0.06, ease: "power2.out",
+    scrollTrigger: { trigger: '.countdown', start: "top 88%", once: true }
+  });
+  gsap.from('.schedule__item', {
+    opacity: 0, y: 20, duration: 0.6, stagger: 0.1, ease: "power2.out",
+    scrollTrigger: { trigger: '.schedule', start: "top 82%", once: true }
+  });
+  gsap.from('.highlight', {
+    opacity: 0, y: 18, duration: 0.55, stagger: 0.06, ease: "power2.out",
+    scrollTrigger: { trigger: '.highlights', start: "top 85%", once: true }
+  });
+
+  /* Honours — cinematic chapter-by-chapter reveal */
+  gsap.from('.honours__head > *', {
+    opacity: 0, y: 22, duration: 0.75, stagger: 0.1, ease: "power3.out",
+    scrollTrigger: { trigger: '.honours__head', start: "top 82%", once: true }
+  });
+  gsap.from('.honours__prelude', {
+    opacity: 0, y: 18, duration: 0.7, ease: "power2.out",
+    scrollTrigger: { trigger: '.honours__prelude', start: "top 85%", once: true }
+  });
+  document.querySelectorAll('.chapter').forEach((chapter, i) => {
+    gsap.from(chapter, {
+      opacity: 0, y: 40, duration: 0.85, ease: "power3.out",
+      scrollTrigger: { trigger: chapter, start: "top 82%", once: true },
+      onStart: () => chapter.classList.add('is-visible')
+    });
+  });
+
+  gsap.from('.dresscode__motif, .dresscode__col, .dresscode__notice, .dresscode__tagline', {
+    opacity: 0, y: 16, duration: 0.6, stagger: 0.06, ease: "power2.out",
+    scrollTrigger: { trigger: '.dresscode', start: "top 85%", once: true }
+  });
+  gsap.from('.venue__info, .venue__map', {
+    opacity: 0, y: 18, duration: 0.65, stagger: 0.1, ease: "power2.out",
+    scrollTrigger: { trigger: '.venue', start: "top 82%", once: true }
+  });
+  gsap.from('.venue__footer > *', {
+    opacity: 0, y: 14, duration: 0.55, stagger: 0.08, ease: "power2.out",
+    scrollTrigger: { trigger: '.venue__footer', start: "top 90%", once: true }
+  });
+  gsap.from('.invite-card', {
+    opacity: 0, y: 30, scale: 0.98, duration: 0.9, ease: "power3.out",
+    scrollTrigger: { trigger: '.invite-card', start: "top 82%", once: true }
+  });
+  gsap.from('.closing__inner > *', {
+    opacity: 0, y: 14, duration: 0.55, stagger: 0.06, ease: "power2.out",
+    scrollTrigger: { trigger: '.closing__inner', start: "top 82%", once: true }
+  });
+})();
+
+(function(){
+  const grid = document.getElementById('countdownGrid');
+  const started = document.getElementById('countdownStarted');
+  if (!grid) return;
+  const target = new Date(EVENT_DATE);
+  if (isNaN(target.getTime())) return;
+  const units = {
+    days: grid.querySelector('[data-unit="days"]'),
+    hours: grid.querySelector('[data-unit="hours"]'),
+    minutes: grid.querySelector('[data-unit="minutes"]'),
+    seconds: grid.querySelector('[data-unit="seconds"]')
+  };
+  const pad = n => String(n).padStart(2, '0');
+  let id = null, done = false;
+  const tick = () => {
+    const diff = target.getTime() - Date.now();
+    if (diff <= 0) {
+      Object.values(units).forEach(u => u && (u.textContent = '00'));
+      if (id) { clearInterval(id); id = null; }
+      if (!done) { done = true; if (started) started.hidden = false; grid.setAttribute('aria-live', 'polite'); }
+      return;
+    }
+    const d = Math.floor(diff / 86400000);
+    const h = Math.floor((diff % 86400000) / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    if (units.days)    units.days.textContent = pad(d);
+    if (units.hours)   units.hours.textContent = pad(h);
+    if (units.minutes) units.minutes.textContent = pad(m);
+    if (units.seconds) units.seconds.textContent = pad(s);
+  };
+  tick();
+  id = setInterval(tick, 1000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden && !done) tick(); });
+})();
+
+(function(){
+  const modal = document.getElementById('modal');
+  const panel = document.getElementById('modalPanel');
+  const eyebrowEl = document.getElementById('modalEyebrow');
+  const titleEl = document.getElementById('modalTitle');
+  const subEl = document.getElementById('modalSubtitle');
+  const bodyEl = document.getElementById('modalBody');
+  if (!modal || !panel) return;
+  const closeBtn = modal.querySelector('.modal__close');
+  let isOpen = false;
+  let lastTrigger = null;
+  let savedScrollY = 0;
+
+  const renderBody = (sections) => sections.map(sec => {
+    const icon = MODAL_ICONS[sec.icon] || MODAL_ICONS.star;
+    const listHTML = Array.isArray(sec.list) && sec.list.length
+      ? `<ul class="modal__list">${sec.list.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+    const textHTML = sec.text ? `<p class="modal__body-text">${sec.text}</p>` : '';
+    const actionHTML = sec.action
+      ? `<div class="modal__action"><a class="btn btn--youtube" href="${sec.action.href}" target="_blank" rel="noopener noreferrer"><span>${sec.action.label}</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>` : '';
+    return `<div class="modal__section"><div class="modal__section-head"><span class="modal__section-icon">${icon}</span><span class="modal__section-label">${sec.label}</span></div>${textHTML}${listHTML}${actionHTML}</div>`;
+  }).join('');
+
+  const open = (key, trigger) => {
+    if (isOpen) return;
+    const data = MODAL_DATA[key]; if (!data) return;
+    isOpen = true; lastTrigger = trigger;
+    eyebrowEl.textContent = data.eyebrow;
+    titleEl.innerHTML = data.title;
+    subEl.textContent = data.subtitle;
+    bodyEl.innerHTML = renderBody(data.sections);
+    modal.hidden = false;
+    modal.setAttribute('aria-hidden', 'false');
+    savedScrollY = window.scrollY;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${savedScrollY}px`;
+    document.body.style.left = '0';
+    document.body.style.right = '0';
+    document.body.style.width = '100%';
+    void modal.offsetHeight;
+    modal.classList.add('is-open');
+    setTimeout(() => closeBtn && closeBtn.focus({ preventScroll: true }), 60);
+  };
+
+  const close = () => {
+    if (!isOpen) return;
+    isOpen = false;
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.left = '';
+    document.body.style.right = '';
+    document.body.style.width = '';
+    window.scrollTo(0, savedScrollY);
+    setTimeout(() => {
+      if (!isOpen) modal.hidden = true;
+      if (lastTrigger && typeof lastTrigger.focus === 'function') lastTrigger.focus({ preventScroll: true });
+      lastTrigger = null;
+    }, 320);
+  };
+
+  document.querySelectorAll('[data-open]').forEach(el => {
+    el.addEventListener('click', () => open(el.dataset.open, el));
+  });
+  modal.addEventListener('click', (e) => {
+    if (e.target.closest('[data-close]')) { e.preventDefault(); close(); }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isOpen) { e.preventDefault(); close(); }
+  });
+  panel.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab' || !isOpen) return;
+    const focusables = panel.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+})();
+
+if (HAS_ST) {
+  window.addEventListener("load", () => ScrollTrigger.refresh());
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => ScrollTrigger.refresh());
+}
+</script>
+</body>
+</html>
